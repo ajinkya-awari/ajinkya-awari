@@ -6,6 +6,21 @@ import xml.etree.ElementTree as ET
 
 
 ROOT = Path(__file__).parents[1]
+PUBLIC_PROJECTS = (
+    "solomonoff-bench",
+    "Advanced-DSA-Patterns",
+    "market-density-cloud",
+    "rl-autonomous-navigation",
+    "curious-adaptive-planner",
+    "adaptive-ai-monitoring",
+    "Transfer-Learning-Plant-Disease",
+    "llm-reasoning-orchestrator",
+    "gnn-agricultural-networks",
+    "nn-optimizer-study",
+    "xai-medical-imaging",
+    "algorithm-complexity-visualizer",
+    "iot-anomaly-detection",
+)
 
 
 def test_readme_references_only_local_visual_assets() -> None:
@@ -15,6 +30,12 @@ def test_readme_references_only_local_visual_assets() -> None:
     assert 'src="assets/contrib-heatmap.svg"' in readme
     assert not re.search(r"<script|github-readme-stats|streak-stats|komarev|shields\.io", readme, re.I)
     assert not re.search(r"(?:ghp_|github_pat_|AKIA[0-9A-Z]{16})", readme)
+
+
+def test_readme_mentions_every_current_public_project() -> None:
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    for project in PUBLIC_PROJECTS:
+        assert f"https://github.com/ajinkya-awari/{project}" in readme
 
 
 def test_local_profile_svgs_are_well_formed_and_self_contained() -> None:
