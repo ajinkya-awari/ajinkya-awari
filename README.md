@@ -26,15 +26,15 @@ software.
 | --- | --- |
 | [SolomonoffBench](https://github.com/ajinkya-awari/solomonoff-bench) | An empirical benchmark comparing how LLMs compress formally generated sequences of different complexity. |
 | [Advanced DSA Patterns](https://github.com/ajinkya-awari/Advanced-DSA-Patterns) | Production-grade implementations of 60+ algorithmic patterns with automated tests. |
-| [Market Density Cloud](https://github.com/ajinkya-awari/market-density-cloud) | PCA and clustering views of mixed stock, crypto, and forex data in an interactive dashboard. |
 | [RL autonomous navigation](https://github.com/ajinkya-awari/rl-autonomous-navigation) | A controlled comparison of tabular Q-learning, DDQN, and PPO on stochastic FrozenLake navigation. |
-| [Curious Adaptive Planner](https://github.com/ajinkya-awari/curious-adaptive-planner) | Curiosity-augmented value iteration with adaptive policy arbitration for bounded-optimality experiments. |
 | [Adaptive AI monitoring](https://github.com/ajinkya-awari/adaptive-ai-monitoring) | Lightweight monitors for reward hacking, entropy spikes, and behavioral drift during RL training. |
-| [Transfer Learning Plant Disease](https://github.com/ajinkya-awari/Transfer-Learning-Plant-Disease) | VGG16, ResNet50, and EfficientNetB0 transfer-learning comparisons for PlantVillage disease detection. |
 | [LLM reasoning orchestrator](https://github.com/ajinkya-awari/llm-reasoning-orchestrator) | A neuro-symbolic pipeline that routes exact computation to SymPy instead of relying on model arithmetic. |
+| [ChestXplain](https://github.com/ajinkya-awari/xai-medical-imaging) | DenseNet121 chest-X-ray classification paired with Grad-CAM visual explanations. |
+| [Market Density Cloud](https://github.com/ajinkya-awari/market-density-cloud) | PCA and clustering views of mixed stock, crypto, and forex data in an interactive dashboard. |
+| [Curious Adaptive Planner](https://github.com/ajinkya-awari/curious-adaptive-planner) | Curiosity-augmented value iteration with adaptive policy arbitration for bounded-optimality experiments. |
+| [Transfer Learning Plant Disease](https://github.com/ajinkya-awari/Transfer-Learning-Plant-Disease) | VGG16, ResNet50, and EfficientNetB0 transfer-learning comparisons for PlantVillage disease detection. |
 | [GNN agricultural networks](https://github.com/ajinkya-awari/gnn-agricultural-networks) | GCN, GraphSAGE, and GAT experiments for agricultural disease propagation with PyTorch Geometric. |
 | [NN optimizer study](https://github.com/ajinkya-awari/nn-optimizer-study) | Empirical comparison of SGD, Adam, RMSprop, Adagrad, and L-BFGS on CIFAR-10 convergence. |
-| [ChestXplain](https://github.com/ajinkya-awari/xai-medical-imaging) | DenseNet121 chest-X-ray classification paired with Grad-CAM visual explanations. |
 | [Algorithm Complexity Visualizer](https://github.com/ajinkya-awari/algorithm-complexity-visualizer) | Operation-counting and log-log regression experiments that validate Big-O bounds interactively. |
 | [IoT Anomaly Detection](https://github.com/ajinkya-awari/iot-anomaly-detection) | LSTM and Transformer autoencoders compared with Isolation Forest for industrial IoT fault detection. |
 
