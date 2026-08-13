@@ -1,0 +1,35 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and tooling
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+*.egg-info/
+dist/
+build/
+
+# Local/generated scratch files
+*.tmp
+*.temp
+*.log
+.DS_Store
+Thumbs.db
+
+# Editor/OS metadata
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Never ignore checked-in profile assets or test fixtures.

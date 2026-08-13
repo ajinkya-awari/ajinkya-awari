@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="330" viewBox="0 0 420 330" role="img" aria-labelledby="title description">
+  <title id="title">AA terminal portrait</title>
+  <desc id="description">A privacy-safe abstract terminal illustration using the initials AA. It is not a photograph.</desc>
+  <style type="text/css"><![CDATA[
+    .terminal { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .blink { animation: blink 1.15s steps(2, jump-none) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .blink { display: none; } }
+  ]]></style>
+
+  <rect width="420" height="330" rx="12" fill="#0d1117"/>
+  <rect x="1" y="1" width="418" height="328" rx="11" fill="none" stroke="#30363d"/>
+  <rect x="1" y="1" width="418" height="30" rx="11" fill="#161b22"/>
+  <path d="M1 30h418" stroke="#30363d"/>
+  <circle cx="20" cy="16" r="5" fill="#ff7b72"/>
+  <circle cx="38" cy="16" r="5" fill="#d29922"/>
+  <circle cx="56" cy="16" r="5" fill="#7ee787"/>
+  <text class="terminal" x="76" y="21" fill="#8b949e" font-size="12">aa@profile:~</text>
+
+  <g class="terminal" fill="#7ee787" font-size="13">
+    <text x="24" y="57">$ whoami</text>
+    <text x="24" y="76" fill="#c9d1d9">ajinkya-awari</text>
+  </g>
+
+  <g class="terminal" fill="#39d353" font-size="15" text-anchor="middle" aria-label="Abstract ASCII monogram">
+    <text x="210" y="116">      ██████      ██████      </text>
+    <text x="210" y="134">    ██      ██  ██      ██    </text>
+    <text x="210" y="152">   ██        ████        ██   </text>
+    <text x="210" y="170">   ██         ██         ██   </text>
+    <text x="210" y="188">    ██       ████       ██    </text>
+    <text x="210" y="206">      ████████  ████████      </text>
+    <text x="210" y="224">          AA / ML / RESEARCH </text>
+  </g>
+
+  <g class="terminal" fill="#8b949e" font-size="12">
+    <text x="24" y="266">privacy-safe visual identity</text>
+    <text x="24" y="286" fill="#c9d1d9">no photo · no external assets</text>
+    <text x="24" y="310" fill="#7ee787">$ build reliable learning systems</text>
+    <rect class="blink" x="296" y="300" width="8" height="15" rx="1" fill="#7ee787" aria-hidden="true"/>
+  </g>
+</svg>
