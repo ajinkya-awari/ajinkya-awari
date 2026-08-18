@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heatmap-title heatmap-description" width="860" height="150" viewBox="0 0 860 150">
   <title id="heatmap-title">GitHub contribution heatmap</title>
-  <desc id="heatmap-description">Public GitHub contribution calendar; color intensity represents the reported contribution level. 2025-08-17 to 2026-08-17</desc>
+  <desc id="heatmap-description">Public GitHub contribution calendar; color intensity represents the reported contribution level. 2025-08-17 to 2026-08-18</desc>
   <rect width="860" height="150" rx="10" fill="#0d1117"/>
-  <text x="24" y="24" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12">contributions · 2025-08-17 to 2026-08-17</text>
+  <text x="24" y="24" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12">contributions · 2025-08-17 to 2026-08-18</text>
   <rect class="day level-0" x="24" y="38" width="11" height="11" rx="2" fill="#161b22" aria-label="2025-08-17: level 0"><title>2025-08-17: level 0</title></rect>
   <rect class="day level-0" x="24" y="52" width="11" height="11" rx="2" fill="#161b22" aria-label="2025-08-18: level 0"><title>2025-08-18: level 0</title></rect>
   <rect class="day level-0" x="24" y="66" width="11" height="11" rx="2" fill="#161b22" aria-label="2025-08-19: level 0"><title>2025-08-19: level 0</title></rect>
@@ -203,9 +203,9 @@
   <rect class="day level-1" x="416" y="52" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-03-02: level 1"><title>2026-03-02: level 1</title></rect>
   <rect class="day level-1" x="416" y="66" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-03-03: level 1"><title>2026-03-03: level 1</title></rect>
   <rect class="day level-1" x="416" y="80" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-03-04: level 1"><title>2026-03-04: level 1</title></rect>
-  <rect class="day level-2" x="416" y="94" width="11" height="11" rx="2" fill="#006d32" aria-label="2026-03-05: level 2"><title>2026-03-05: level 2</title></rect>
+  <rect class="day level-1" x="416" y="94" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-03-05: level 1"><title>2026-03-05: level 1</title></rect>
   <rect class="day level-1" x="416" y="108" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-03-06: level 1"><title>2026-03-06: level 1</title></rect>
-  <rect class="day level-2" x="416" y="122" width="11" height="11" rx="2" fill="#006d32" aria-label="2026-03-07: level 2"><title>2026-03-07: level 2</title></rect>
+  <rect class="day level-1" x="416" y="122" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-03-07: level 1"><title>2026-03-07: level 1</title></rect>
   <rect class="day level-0" x="430" y="38" width="11" height="11" rx="2" fill="#161b22" aria-label="2026-03-08: level 0"><title>2026-03-08: level 0</title></rect>
   <rect class="day level-1" x="430" y="52" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-03-09: level 1"><title>2026-03-09: level 1</title></rect>
   <rect class="day level-1" x="430" y="66" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-03-10: level 1"><title>2026-03-10: level 1</title></rect>
@@ -246,23 +246,23 @@
   <rect class="day level-0" x="500" y="66" width="11" height="11" rx="2" fill="#161b22" aria-label="2026-04-14: level 0"><title>2026-04-14: level 0</title></rect>
   <rect class="day level-0" x="500" y="80" width="11" height="11" rx="2" fill="#161b22" aria-label="2026-04-15: level 0"><title>2026-04-15: level 0</title></rect>
   <rect class="day level-1" x="500" y="94" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-04-16: level 1"><title>2026-04-16: level 1</title></rect>
-  <rect class="day level-3" x="500" y="108" width="11" height="11" rx="2" fill="#26a641" aria-label="2026-04-17: level 3"><title>2026-04-17: level 3</title></rect>
+  <rect class="day level-2" x="500" y="108" width="11" height="11" rx="2" fill="#006d32" aria-label="2026-04-17: level 2"><title>2026-04-17: level 2</title></rect>
   <rect class="day level-1" x="500" y="122" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-04-18: level 1"><title>2026-04-18: level 1</title></rect>
-  <rect class="day level-4" x="514" y="38" width="11" height="11" rx="2" fill="#39d353" aria-label="2026-04-19: level 4"><title>2026-04-19: level 4</title></rect>
+  <rect class="day level-3" x="514" y="38" width="11" height="11" rx="2" fill="#26a641" aria-label="2026-04-19: level 3"><title>2026-04-19: level 3</title></rect>
   <rect class="day level-0" x="514" y="52" width="11" height="11" rx="2" fill="#161b22" aria-label="2026-04-20: level 0"><title>2026-04-20: level 0</title></rect>
   <rect class="day level-1" x="514" y="66" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-04-21: level 1"><title>2026-04-21: level 1</title></rect>
   <rect class="day level-2" x="514" y="80" width="11" height="11" rx="2" fill="#006d32" aria-label="2026-04-22: level 2"><title>2026-04-22: level 2</title></rect>
-  <rect class="day level-2" x="514" y="94" width="11" height="11" rx="2" fill="#006d32" aria-label="2026-04-23: level 2"><title>2026-04-23: level 2</title></rect>
-  <rect class="day level-2" x="514" y="108" width="11" height="11" rx="2" fill="#006d32" aria-label="2026-04-24: level 2"><title>2026-04-24: level 2</title></rect>
+  <rect class="day level-1" x="514" y="94" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-04-23: level 1"><title>2026-04-23: level 1</title></rect>
+  <rect class="day level-1" x="514" y="108" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-04-24: level 1"><title>2026-04-24: level 1</title></rect>
   <rect class="day level-1" x="514" y="122" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-04-25: level 1"><title>2026-04-25: level 1</title></rect>
   <rect class="day level-1" x="528" y="38" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-04-26: level 1"><title>2026-04-26: level 1</title></rect>
   <rect class="day level-1" x="528" y="52" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-04-27: level 1"><title>2026-04-27: level 1</title></rect>
-  <rect class="day level-4" x="528" y="66" width="11" height="11" rx="2" fill="#39d353" aria-label="2026-04-28: level 4"><title>2026-04-28: level 4</title></rect>
+  <rect class="day level-3" x="528" y="66" width="11" height="11" rx="2" fill="#26a641" aria-label="2026-04-28: level 3"><title>2026-04-28: level 3</title></rect>
   <rect class="day level-0" x="528" y="80" width="11" height="11" rx="2" fill="#161b22" aria-label="2026-04-29: level 0"><title>2026-04-29: level 0</title></rect>
   <rect class="day level-1" x="528" y="94" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-04-30: level 1"><title>2026-04-30: level 1</title></rect>
   <rect class="day level-1" x="528" y="108" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-05-01: level 1"><title>2026-05-01: level 1</title></rect>
   <rect class="day level-1" x="528" y="122" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-05-02: level 1"><title>2026-05-02: level 1</title></rect>
-  <rect class="day level-2" x="542" y="38" width="11" height="11" rx="2" fill="#006d32" aria-label="2026-05-03: level 2"><title>2026-05-03: level 2</title></rect>
+  <rect class="day level-1" x="542" y="38" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-05-03: level 1"><title>2026-05-03: level 1</title></rect>
   <rect class="day level-1" x="542" y="52" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-05-04: level 1"><title>2026-05-04: level 1</title></rect>
   <rect class="day level-0" x="542" y="66" width="11" height="11" rx="2" fill="#161b22" aria-label="2026-05-05: level 0"><title>2026-05-05: level 0</title></rect>
   <rect class="day level-0" x="542" y="80" width="11" height="11" rx="2" fill="#161b22" aria-label="2026-05-06: level 0"><title>2026-05-06: level 0</title></rect>
@@ -272,9 +272,9 @@
   <rect class="day level-0" x="556" y="38" width="11" height="11" rx="2" fill="#161b22" aria-label="2026-05-10: level 0"><title>2026-05-10: level 0</title></rect>
   <rect class="day level-0" x="556" y="52" width="11" height="11" rx="2" fill="#161b22" aria-label="2026-05-11: level 0"><title>2026-05-11: level 0</title></rect>
   <rect class="day level-2" x="556" y="66" width="11" height="11" rx="2" fill="#006d32" aria-label="2026-05-12: level 2"><title>2026-05-12: level 2</title></rect>
-  <rect class="day level-3" x="556" y="80" width="11" height="11" rx="2" fill="#26a641" aria-label="2026-05-13: level 3"><title>2026-05-13: level 3</title></rect>
+  <rect class="day level-2" x="556" y="80" width="11" height="11" rx="2" fill="#006d32" aria-label="2026-05-13: level 2"><title>2026-05-13: level 2</title></rect>
   <rect class="day level-2" x="556" y="94" width="11" height="11" rx="2" fill="#006d32" aria-label="2026-05-14: level 2"><title>2026-05-14: level 2</title></rect>
-  <rect class="day level-3" x="556" y="108" width="11" height="11" rx="2" fill="#26a641" aria-label="2026-05-15: level 3"><title>2026-05-15: level 3</title></rect>
+  <rect class="day level-2" x="556" y="108" width="11" height="11" rx="2" fill="#006d32" aria-label="2026-05-15: level 2"><title>2026-05-15: level 2</title></rect>
   <rect class="day level-1" x="556" y="122" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-05-16: level 1"><title>2026-05-16: level 1</title></rect>
   <rect class="day level-1" x="570" y="38" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-05-17: level 1"><title>2026-05-17: level 1</title></rect>
   <rect class="day level-1" x="570" y="52" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-05-18: level 1"><title>2026-05-18: level 1</title></rect>
@@ -283,7 +283,7 @@
   <rect class="day level-1" x="570" y="94" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-05-21: level 1"><title>2026-05-21: level 1</title></rect>
   <rect class="day level-1" x="570" y="108" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-05-22: level 1"><title>2026-05-22: level 1</title></rect>
   <rect class="day level-0" x="570" y="122" width="11" height="11" rx="2" fill="#161b22" aria-label="2026-05-23: level 0"><title>2026-05-23: level 0</title></rect>
-  <rect class="day level-4" x="584" y="38" width="11" height="11" rx="2" fill="#39d353" aria-label="2026-05-24: level 4"><title>2026-05-24: level 4</title></rect>
+  <rect class="day level-3" x="584" y="38" width="11" height="11" rx="2" fill="#26a641" aria-label="2026-05-24: level 3"><title>2026-05-24: level 3</title></rect>
   <rect class="day level-1" x="584" y="52" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-05-25: level 1"><title>2026-05-25: level 1</title></rect>
   <rect class="day level-0" x="584" y="66" width="11" height="11" rx="2" fill="#161b22" aria-label="2026-05-26: level 0"><title>2026-05-26: level 0</title></rect>
   <rect class="day level-0" x="584" y="80" width="11" height="11" rx="2" fill="#161b22" aria-label="2026-05-27: level 0"><title>2026-05-27: level 0</title></rect>
@@ -316,7 +316,7 @@
   <rect class="day level-0" x="640" y="66" width="11" height="11" rx="2" fill="#161b22" aria-label="2026-06-23: level 0"><title>2026-06-23: level 0</title></rect>
   <rect class="day level-1" x="640" y="80" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-06-24: level 1"><title>2026-06-24: level 1</title></rect>
   <rect class="day level-1" x="640" y="94" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-06-25: level 1"><title>2026-06-25: level 1</title></rect>
-  <rect class="day level-3" x="640" y="108" width="11" height="11" rx="2" fill="#26a641" aria-label="2026-06-26: level 3"><title>2026-06-26: level 3</title></rect>
+  <rect class="day level-2" x="640" y="108" width="11" height="11" rx="2" fill="#006d32" aria-label="2026-06-26: level 2"><title>2026-06-26: level 2</title></rect>
   <rect class="day level-1" x="640" y="122" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-06-27: level 1"><title>2026-06-27: level 1</title></rect>
   <rect class="day level-2" x="654" y="38" width="11" height="11" rx="2" fill="#006d32" aria-label="2026-06-28: level 2"><title>2026-06-28: level 2</title></rect>
   <rect class="day level-1" x="654" y="52" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-06-29: level 1"><title>2026-06-29: level 1</title></rect>
@@ -366,9 +366,10 @@
   <rect class="day level-0" x="738" y="80" width="11" height="11" rx="2" fill="#161b22" aria-label="2026-08-12: level 0"><title>2026-08-12: level 0</title></rect>
   <rect class="day level-1" x="738" y="94" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-08-13: level 1"><title>2026-08-13: level 1</title></rect>
   <rect class="day level-1" x="738" y="108" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-08-14: level 1"><title>2026-08-14: level 1</title></rect>
-  <rect class="day level-2" x="738" y="122" width="11" height="11" rx="2" fill="#006d32" aria-label="2026-08-15: level 2"><title>2026-08-15: level 2</title></rect>
+  <rect class="day level-1" x="738" y="122" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-08-15: level 1"><title>2026-08-15: level 1</title></rect>
   <rect class="day level-1" x="752" y="38" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-08-16: level 1"><title>2026-08-16: level 1</title></rect>
   <rect class="day level-1" x="752" y="52" width="11" height="11" rx="2" fill="#0e4429" aria-label="2026-08-17: level 1"><title>2026-08-17: level 1</title></rect>
+  <rect class="day level-4" x="752" y="66" width="11" height="11" rx="2" fill="#39d353" aria-label="2026-08-18: level 4"><title>2026-08-18: level 4</title></rect>
   <rect x="805" y="18" width="7" height="7" rx="2" fill="#39d353" opacity="0.75">
     <animate attributeName="opacity" values="0.35;0.9;0.35" dur="2.4s" repeatCount="indefinite"/>
   </rect>
