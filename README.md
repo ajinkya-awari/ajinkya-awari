@@ -29,7 +29,9 @@ software.
 | [RL autonomous navigation](https://github.com/ajinkya-awari/rl-autonomous-navigation) | A controlled comparison of tabular Q-learning, DDQN, and PPO on stochastic FrozenLake navigation. |
 | [Adaptive AI monitoring](https://github.com/ajinkya-awari/adaptive-ai-monitoring) | Lightweight monitors for reward hacking, entropy spikes, and behavioral drift during RL training. |
 | [LLM reasoning orchestrator](https://github.com/ajinkya-awari/llm-reasoning-orchestrator) | A neuro-symbolic pipeline that routes exact computation to SymPy instead of relying on model arithmetic. |
+| [XAI Medical Imaging](https://github.com/ajinkya-awari/xai-medical-imaging-project-02) | Grad-CAM, SHAP, and Integrated Gradients benchmarked against 861 NIH ChestX-ray14 radiologist bounding boxes. Mean IoU 0.1289 (Grad-CAM). 20 Kaggle kernel iterations. |
 | [ChestXplain](https://github.com/ajinkya-awari/xai-medical-imaging) | DenseNet121 chest-X-ray classification paired with Grad-CAM visual explanations. |
+| [AlphaFold-Guided Binding Benchmark](https://github.com/ajinkya-awari/afbind) | Benchmarking library for AF2 structure substitution in protein–ligand affinity prediction. 37/37 synthetic tests pass on Kaggle (2026-09-06). Real benchmark pending PDBBind data access. |
 | [Market Density Cloud](https://github.com/ajinkya-awari/market-density-cloud) | PCA and clustering views of mixed stock, crypto, and forex data in an interactive dashboard. |
 | [Curious Adaptive Planner](https://github.com/ajinkya-awari/curious-adaptive-planner) | Curiosity-augmented value iteration with adaptive policy arbitration for bounded-optimality experiments. |
 | [Transfer Learning Plant Disease](https://github.com/ajinkya-awari/Transfer-Learning-Plant-Disease) | VGG16, ResNet50, and EfficientNetB0 transfer-learning comparisons for PlantVillage disease detection. |
