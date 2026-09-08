@@ -24,6 +24,7 @@ software.
 
 | Project | What it explores |
 | --- | --- |
+| [NICE-RAG](https://github.com/ajinkya-awari/-nice-rag) | Citation-first clinical-guideline retrieval scaffold; synthetic/offline and private Kaggle verified with 69 passing tests. NICE, model, provider, and deployment stages remain gated. |
 | [SolomonoffBench](https://github.com/ajinkya-awari/solomonoff-bench) | An empirical benchmark comparing how LLMs compress formally generated sequences of different complexity. |
 | [Advanced DSA Patterns](https://github.com/ajinkya-awari/Advanced-DSA-Patterns) | Production-grade implementations of 60+ algorithmic patterns with automated tests. |
 | [RL autonomous navigation](https://github.com/ajinkya-awari/rl-autonomous-navigation) | A controlled comparison of tabular Q-learning, DDQN, and PPO on stochastic FrozenLake navigation. |
