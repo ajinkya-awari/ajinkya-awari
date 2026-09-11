@@ -26,6 +26,7 @@ software.
 | --- | --- |
 | [GraphGPS Upgrade](https://github.com/ajinkya-awari/graphgps-upgrade) | Reproducible PyTorch Geometric benchmark adapter for GCN, GIN, and GPSConv; 48 tests pass and the private Kaggle T4 official-path run is verified, with the full-budget ablation still pending. |
 | [NICE-RAG](https://github.com/ajinkya-awari/-nice-rag) | Citation-first retrieval research scaffold; 139 local tests pass, open-evidence acquisition is partial (3/5), and NICE/model/provider/deployment stages remain gated. |
+| [Mechanistic Interpretability](https://github.com/ajinkya-awari/mech-interp) | Standard-library Python toy for activation capture, feature attribution, and controlled interventions; complete with limitations for synthetic scope, with 16 tests passing and no real-model claim. |
 | [SolomonoffBench](https://github.com/ajinkya-awari/solomonoff-bench) | An empirical benchmark comparing how LLMs compress formally generated sequences of different complexity. |
 | [Advanced DSA Patterns](https://github.com/ajinkya-awari/Advanced-DSA-Patterns) | Production-grade implementations of 60+ algorithmic patterns with automated tests. |
 | [RL autonomous navigation](https://github.com/ajinkya-awari/rl-autonomous-navigation) | A controlled comparison of tabular Q-learning, DDQN, and PPO on stochastic FrozenLake navigation. |

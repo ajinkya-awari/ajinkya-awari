@@ -7,6 +7,7 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).parents[1]
 PUBLIC_PROJECTS = (
+    "mech-interp",
     "solomonoff-bench",
     "Advanced-DSA-Patterns",
     "market-density-cloud",
