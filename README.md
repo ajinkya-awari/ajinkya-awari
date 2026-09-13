@@ -24,6 +24,7 @@ software.
 
 | Project | What it explores |
 | --- | --- |
+| [OmicsGraph](https://github.com/ajinkya-awari/omicsgraph) | Governance-first contracts — provenance, leakage prevention, schema validation — for a future single-cell omics graph-learning pipeline; standard-library synthetic-only with 14 local tests passing, no real dataset, training, or GPU run. |
 | [MedLLM Safety](https://github.com/ajinkya-awari/medllm-safety) | Standard-library Python contracts for refusal, abstention, escalation, PHI-shaped redaction, and provider-free reproducibility; synthetic-only with 63 local tests passing and private CPU Kaggle validation complete, not clinically validated or production-ready. |
 | [GraphGPS Upgrade](https://github.com/ajinkya-awari/graphgps-upgrade) | Reproducible PyTorch Geometric benchmark adapter for GCN, GIN, and GPSConv; 50 tests pass and the private Kaggle T4 full-budget ablation is verified under a frozen protocol. |
 | [NICE-RAG](https://github.com/ajinkya-awari/-nice-rag) | Citation-first retrieval research scaffold; 139 local tests pass, open-evidence acquisition is partial (3/5), and NICE/model/provider/deployment stages remain gated. |
