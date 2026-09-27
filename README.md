@@ -52,7 +52,7 @@ Strongest, most-verified projects. Full 21-project map is below.
 | [GraphGPS-Upgrade](https://github.com/ajinkya-awari/graphgps-upgrade) | GPS vs. GCN/GIN ablation under a frozen 30-epoch budget, Tesla T4 execution | Graph learning | Publicly verified | Test ROC-AUC: GPS 0.748, GIN 0.698, GCN 0.693 (3 seeds) |
 | [ESM2-Protein-Fitness](https://github.com/ajinkya-awari/esm2-protein-fitness) | Protein mutation fitness-prediction benchmark built on ESM2 embeddings | Protein ML | Publicly verified | 87/87 tests pass; Kaggle kernel run complete |
 | [PrivacyFL-DP](https://github.com/ajinkya-awari/privacyfl-dp) | Local synthetic contract layer for a differentially-private federated-learning research workflow | Privacy · federated learning | Synthetic scope verified | 23/23 tests pass at pinned commit `f7d7d7b` |
-| [NICE-RAG](https://github.com/ajinkya-awari/-nice-rag) | Citation-first retrieval scaffold for NICE clinical guidelines with bounded synthetic validation | Clinical NLP · retrieval | Complete with limitations | 139/139 local tests pass; open-evidence acquisition partial |
+| [NICE-RAG](https://github.com/ajinkya-awari/-nice-rag) | Citation-first retrieval scaffold for NICE clinical guidelines with provenance-first citation contracts | Clinical NLP · retrieval | Complete with limitations | 151 tests pass; 5 CC BY 4.0 PMC records verified; NICE content gated |
 
 ## `~/` full portfolio map
 
@@ -92,9 +92,9 @@ All 21 canonical projects, grouped by area. "Not publicly released" and
 | ---: | --- | --- |
 | 08 | [ClinicalBERT-ICD](https://github.com/ajinkya-awari/clinicalbert-icd) — leakage-safe ICD-9 multi-label classification scaffold, LoRA vs. full fine-tuning (171 synthetic tests) | Synthetic scope verified (MIMIC-III access blocked by DUA) |
 | 09 | [NHSCopilot-Eval](https://github.com/ajinkya-awari/-nhscopilot-eval) — evaluation harness for an NHS-facing AI copilot workflow (33 public-export tests pass) | Complete with limitations (synthetic scope only; no NHS/clinical claims) |
-| 10 | PubMedQA-LoRA — QLoRA fine-tuning vs. zero-shot baselines on PubMedQA evidence classification | Not publicly released |
+| 10 | [PubMedQA-LoRA](https://github.com/ajinkya-awari/pubmedqa-lora) — QLoRA fine-tuning vs. zero-shot baselines on PubMedQA evidence classification | Synthetic scope verified |
 | 11 | [MedLLM-Safety](https://github.com/ajinkya-awari/medllm-safety) — provider-free synthetic safety contracts for medical-LLM evaluation (63 public-export tests pass) | Synthetic scope verified |
-| 13 | ClinVision — auditable image-to-text prototype on licence-cleared paired image/report data | Not publicly released |
+| 13 | [ClinVision](https://github.com/ajinkya-awari/clinvision) — auditable image-to-text prototype on licence-cleared paired image/report data | Synthetic scope verified |
 | 14 | CausalClinical — causal-inference benchmark design for MIMIC-III treatment-effect estimation | Planning-only (blocked on DUA/governance) |
 | 19 | [NICE-RAG](https://github.com/ajinkya-awari/-nice-rag) — citation-first NICE guideline retrieval scaffold | Complete with limitations |
 
