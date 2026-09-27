@@ -165,21 +165,34 @@ Opening the real-data and provider gates on the six projects where synthetic con
 
 ---
 
-<details>
-<summary><strong>Earlier experiments (pre-portfolio)</strong></summary>
+## 📄 Published Research
 
-These predate the 00–20 portfolio numbering. Mostly coursework-scale algorithm, RL, and CV experiments.
+The portfolio projects above extend prior peer-reviewed work. The foundational study was published in 2023:
+
+| Paper | Venue | DOI | Portfolio extension |
+| --- | --- | --- | --- |
+| **Transfer Learning for Plant Disease Detection** — comparative study across VGG16, ResNet50, and EfficientNetB0 on the PlantVillage dataset; empirical analysis of two-phase fine-tuning against frozen feature extraction | IJARSCT 2023 | [10.48175/IJARSCT-9156](https://doi.org/10.48175/IJARSCT-9156) | Extended in [Transfer-Learning-Plant-Disease](https://github.com/ajinkya-awari/Transfer-Learning-Plant-Disease) (Mar 2026) and underpins the GNN agricultural disease propagation work |
+
+---
+
+<details>
+<summary><strong>Earlier experiments (pre-portfolio, Mar–Apr 2026)</strong></summary>
+
+These predate the 00–20 portfolio numbering. They form the empirical foundation the main portfolio builds on — algorithm, RL, CV, GNN, and interpretability experiments run before the structured campaign began.
 
 | Project | What it explores |
 | --- | --- |
-| [Advanced DSA Patterns](https://github.com/ajinkya-awari/Advanced-DSA-Patterns) | 60+ algorithmic patterns with automated tests |
-| [RL Autonomous Navigation](https://github.com/ajinkya-awari/rl-autonomous-navigation) | Q-learning, DDQN, and PPO on stochastic FrozenLake |
-| [Adaptive AI Monitoring](https://github.com/ajinkya-awari/adaptive-ai-monitoring) | Reward-hacking, entropy-spike, and drift monitors for RL |
-| [LLM Reasoning Orchestrator](https://github.com/ajinkya-awari/llm-reasoning-orchestrator) | Neuro-symbolic routing: SymPy for exact computation |
-| [ChestXplain](https://github.com/ajinkya-awari/xai-medical-imaging) | DenseNet121 + Grad-CAM on chest X-ray |
-| [GNN Agricultural Networks](https://github.com/ajinkya-awari/gnn-agricultural-networks) | GCN, GraphSAGE, GAT for disease propagation |
-| [NN Optimizer Study](https://github.com/ajinkya-awari/nn-optimizer-study) | SGD / Adam / RMSprop / Adagrad / L-BFGS on CIFAR-10 |
-| [IoT Anomaly Detection](https://github.com/ajinkya-awari/iot-anomaly-detection) | LSTM and Transformer autoencoders vs. Isolation Forest |
+| [Transfer-Learning-Plant-Disease](https://github.com/ajinkya-awari/Transfer-Learning-Plant-Disease) | VGG16 / ResNet50 / EfficientNetB0 comparison on PlantVillage — extension of published IJARSCT 2023 paper |
+| [GNN Agricultural Networks](https://github.com/ajinkya-awari/gnn-agricultural-networks) | GCN, GraphSAGE, GAT for disease propagation modelling; extends the published plant disease research |
+| [ChestXplain](https://github.com/ajinkya-awari/xai-medical-imaging) | DenseNet121 + Grad-CAM on chest X-ray multi-label classification — predecessor to T2 XAI Triple |
+| [Curious Adaptive Planner](https://github.com/ajinkya-awari/curious-adaptive-planner) | Curiosity-augmented Value Iteration with adaptive policy arbitration; bounded optimality in hybrid RL agents |
+| [RL Autonomous Navigation](https://github.com/ajinkya-awari/rl-autonomous-navigation) | Q-learning, DDQN, and PPO on stochastic FrozenLake — convergence and sample efficiency analysis |
+| [Adaptive AI Monitoring](https://github.com/ajinkya-awari/adaptive-ai-monitoring) | Reward-hacking, entropy-spike, and KL-divergence drift monitors for RL training; PID hardware loop |
+| [LLM Reasoning Orchestrator](https://github.com/ajinkya-awari/llm-reasoning-orchestrator) | Neuro-symbolic routing: SymPy for exact computation, reducing hallucination on engineering problems |
+| [Algorithm Complexity Visualizer](https://github.com/ajinkya-awari/algorithm-complexity-visualizer) | Empirical Big-O validation via exact operation counting, log-log regression, and interactive web visualizer |
+| [NN Optimizer Study](https://github.com/ajinkya-awari/nn-optimizer-study) | SGD / Adam / RMSprop / Adagrad / L-BFGS on CIFAR-10 — convergence, gradient norms, loss landscape |
+| [IoT Anomaly Detection](https://github.com/ajinkya-awari/iot-anomaly-detection) | LSTM and Transformer autoencoders vs. Isolation Forest on 5 industrial fault types with attention viz |
+| [Advanced DSA Patterns](https://github.com/ajinkya-awari/Advanced-DSA-Patterns) | 60+ algorithmic patterns with automated tests — production-grade implementations |
 
 </details>
 
