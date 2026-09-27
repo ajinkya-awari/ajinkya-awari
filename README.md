@@ -171,6 +171,7 @@ The portfolio projects above extend prior peer-reviewed work. The foundational s
 
 | Paper | Venue | DOI | Portfolio extension |
 | --- | --- | --- | --- |
+| **Plant Disease Detection using Machine Learning** — ML-based approach to automated plant disease identification, establishing the baseline detection pipeline | IJARSCT Vol. 3, Issue 4, Apr 2023 | [10.48175/IJARSCT-9297](https://doi.org/10.48175/IJARSCT-9297) | Foundational study; leads directly to the transfer learning comparison below |
 | **Transfer Learning for Plant Disease Detection** — comparative study across VGG16, ResNet50, and EfficientNetB0 on the PlantVillage dataset; empirical analysis of two-phase fine-tuning against frozen feature extraction | IJARSCT 2023 | [10.48175/IJARSCT-9156](https://doi.org/10.48175/IJARSCT-9156) | Extended in [Transfer-Learning-Plant-Disease](https://github.com/ajinkya-awari/Transfer-Learning-Plant-Disease) (Mar 2026) and underpins the GNN agricultural disease propagation work |
 
 ---
