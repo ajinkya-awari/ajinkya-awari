@@ -62,7 +62,7 @@ Most ML portfolios show what worked. Mine shows what was **measured**, including
 ## The journey
 
 <div align="center">
-<img src="assets/journey.svg" alt="Three scenes: the failure (frozen BatchNorm collapsed accuracy, found and published in 2023), the build (20 gated projects), the ask (real-model research)" width="100%" />
+<img src="assets/journey.svg" alt="Three scenes: the failure (frozen BatchNorm collapsed accuracy, found and fixed in a follow-up to my 2023 papers), the build (20 gated projects), the ask (real-model research)" width="100%" />
 </div>
 
 <img src="assets/divider.svg" alt="" width="100%" />
@@ -365,16 +365,18 @@ If you work on reliable ML for biomedicine, protein or graph learning, privacy-p
 <tbody>
 <tr>
 <td valign="top" align="left">Plant Disease Detection using Machine Learning</td>
-<td valign="top" align="left">IJARSCT, 2023</td>
+<td valign="top" align="left">IJARSCT, Vol. 3, Issue 4, April 2023</td>
 <td valign="top" align="left"><a href="https://doi.org/10.48175/IJARSCT-9297">10.48175/IJARSCT-9297</a></td>
 </tr>
 <tr>
-<td valign="top" align="left">Transfer Learning for Plant Disease Detection</td>
-<td valign="top" align="left">IJARSCT, 2023</td>
+<td valign="top" align="left">Plant Disease Detection using Machine Learning (apple-leaf disease CNN)</td>
+<td valign="top" align="left">IJARSCT, Vol. 3, Issue 2, April 2023</td>
 <td valign="top" align="left"><a href="https://doi.org/10.48175/IJARSCT-9156">10.48175/IJARSCT-9156</a></td>
 </tr>
 </tbody>
 </table>
+
+Co-authored with Prof. V. Paithankar, A. Raskar, S. Patil and N. Jamdar (second author on both).
 
 <details open>
 <summary><strong>Earlier experiments</strong> · the foundation, built Mar–Apr 2026 before the numbered portfolio</summary>
@@ -396,7 +398,7 @@ The numbered projects above grew out of these twelve experiments. They are where
 <tbody>
 <tr>
 <td valign="top" align="left"><b><ins>Transfer-Learning-Plant-Disease</ins></b></td>
-<td valign="top" align="left">Extends my published IJARSCT 2023 study: VGG16 vs ResNet50 vs EfficientNetB0 on the PlantVillage leaf dataset.</td>
+<td valign="top" align="left">A follow-up to my 2023 IJARSCT plant-disease papers: VGG16 vs ResNet50 vs EfficientNetB0 on the PlantVillage leaf dataset.</td>
 <td valign="top" align="left"><a href="https://github.com/ajinkya-awari/Transfer-Learning-Plant-Disease">↗</a> Documents a frozen-BatchNorm failure that collapses accuracy to about 14%, and the fix that restores about 99%.</td>
 </tr>
 <tr>
