@@ -113,7 +113,13 @@ Status key: ✅ verified result · 🟡 measured, weak or partial · ⛔ documen
 
 A **research fellowship, paid placement or role** that funds the next step: taking interpretability and evaluation from toy models to real ones, with the same habit of reporting exactly what the numbers say. My dissertation period (March to September 2027) is open for a placement.
 
-If you work on reliable ML for biomedicine, protein or graph learning, privacy-preserving ML, or model evaluation, the fastest way to judge me is to open one repo above and read its Limitations section. Then [email me](mailto:ajinkya18072001@gmail.com).
+If you work on reliable ML for biomedicine, protein or graph learning, privacy-preserving ML, or model evaluation, the fastest way to judge me is to open one repo above and read its Limitations section. Then [email me](mailto:ajinkya.awari.26@ucl.ac.uk).
+
+## Contact
+
+- **UCL email:** [ajinkya.awari.26@ucl.ac.uk](mailto:ajinkya.awari.26@ucl.ac.uk)
+- **Same mailbox, alternate UCL address:** [ucab378@ucl.ac.uk](mailto:ucab378@ucl.ac.uk)
+- **Elsewhere:** [GitHub](https://github.com/ajinkya-awari) · [Hugging Face](https://huggingface.co/ajinkya1807) · [Kaggle](https://www.kaggle.com/ajinkya1225)
 
 ## Technologies
 
