@@ -18,6 +18,8 @@
 
 **Open to ML Engineering, Biomedical AI, Research Engineering, Responsible AI and Research Assistant opportunities in the UK.**
 
+📄 **[Download my CV (PDF)](cv/Ajinkya-Awari-CV.pdf)**
+
 <img src="assets/divider.svg" alt="" width="100%" />
 
 I am an **ML Engineer** pursuing an **MSc in Artificial Intelligence for Biomedicine and Healthcare at University College London (UCL), London, UK**.
@@ -332,6 +334,7 @@ If you work on reliable ML for biomedicine, protein or graph learning, privacy-p
 
 - **UCL email:** [ajinkya.awari.26@ucl.ac.uk](mailto:ajinkya.awari.26@ucl.ac.uk)
 - **Same mailbox, alternate UCL address:** [ucab378@ucl.ac.uk](mailto:ucab378@ucl.ac.uk)
+- **CV:** [Ajinkya-Awari-CV.pdf](cv/Ajinkya-Awari-CV.pdf)
 - **Elsewhere:** [LinkedIn](https://www.linkedin.com/in/ajinkya-awari-641114249) · [GitHub](https://github.com/ajinkya-awari) · [Hugging Face](https://huggingface.co/ajinkya1807) · [Kaggle](https://www.kaggle.com/ajinkya1225)
 
 ## Technologies
