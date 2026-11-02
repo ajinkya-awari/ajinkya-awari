@@ -146,23 +146,44 @@ If you work on reliable ML for biomedicine, protein or graph learning, privacy-p
 | Plant Disease Detection using Machine Learning | IJARSCT, 2023 | [10.48175/IJARSCT-9297](https://doi.org/10.48175/IJARSCT-9297) |
 | Transfer Learning for Plant Disease Detection | IJARSCT, 2023 | [10.48175/IJARSCT-9156](https://doi.org/10.48175/IJARSCT-9156) |
 
-<details>
-<summary><strong>Earlier experiments</strong> (before the numbered portfolio)</summary>
+<details open>
+<summary><strong>Earlier experiments</strong> · the foundation, built Mar–Apr 2026 before the numbered portfolio</summary>
 
-| Project | Area |
-| --- | --- |
-| [Transfer-Learning-Plant-Disease](https://github.com/ajinkya-awari/Transfer-Learning-Plant-Disease) | Transfer learning on PlantVillage |
-| [GNN Agricultural Networks](https://github.com/ajinkya-awari/gnn-agricultural-networks) | Graph learning for disease propagation |
-| [ChestXplain](https://github.com/ajinkya-awari/xai-medical-imaging) | Chest X-ray explainability |
-| [Curious Adaptive Planner](https://github.com/ajinkya-awari/curious-adaptive-planner) | Curiosity-augmented planning |
-| [RL Autonomous Navigation](https://github.com/ajinkya-awari/rl-autonomous-navigation) | Reinforcement learning navigation |
-| [Adaptive AI Monitoring](https://github.com/ajinkya-awari/adaptive-ai-monitoring) | Reward and drift monitoring |
-| [LLM Reasoning Orchestrator](https://github.com/ajinkya-awari/llm-reasoning-orchestrator) | Neuro-symbolic routing |
-| [Algorithm Complexity Visualizer](https://github.com/ajinkya-awari/algorithm-complexity-visualizer) | Empirical complexity analysis |
-| [NN Optimizer Study](https://github.com/ajinkya-awari/nn-optimizer-study) | Optimizer comparisons |
-| [IoT Anomaly Detection](https://github.com/ajinkya-awari/iot-anomaly-detection) | Industrial anomaly detection |
-| [Advanced DSA Patterns](https://github.com/ajinkya-awari/Advanced-DSA-Patterns) | Tested algorithmic patterns |
-| [Market Density Cloud](https://github.com/ajinkya-awari/market-density-cloud) | PCA and clustering for market structure |
+<br>
+
+The numbered projects above grew out of these twelve experiments. They are where I learned to compare methods under one fixed budget and to report failures, which is the habit the portfolio is built on.
+
+#### 👁️ Vision and transfer learning
+
+| Project | What it explores | Method and evidence |
+| --- | --- | --- |
+| [**Transfer-Learning-Plant-Disease**](https://github.com/ajinkya-awari/Transfer-Learning-Plant-Disease) | Extends my published IJARSCT 2023 study: VGG16 vs ResNet50 vs EfficientNetB0 on the PlantVillage leaf dataset. | Documents a frozen-BatchNorm failure that collapses accuracy to about 14%, and the fix that restores about 99%. |
+| [**ChestXplain**](https://github.com/ajinkya-awari/xai-medical-imaging) | Multi-label chest X-ray classification across 14 disease categories, with Grad-CAM heatmaps showing what the model looked at. | DenseNet121, two-phase transfer learning, Streamlit demo. Predecessor of T2 XAI Triple (02). |
+| [**IoT Anomaly Detection**](https://github.com/ajinkya-awari/iot-anomaly-detection) | Detecting five industrial fault types in IoT sensor streams. | LSTM and Transformer autoencoders against an Isolation Forest, with attention visualisation. |
+
+#### 🕸️ Graph learning
+
+| Project | What it explores | Method and evidence |
+| --- | --- | --- |
+| [**GNN Agricultural Networks**](https://github.com/ajinkya-awari/gnn-agricultural-networks) | How crop disease spreads across a network, modelled as a graph. | GCN, GraphSAGE and GAT in PyTorch Geometric, with an optimisation convergence analysis. |
+
+#### 🎮 Reinforcement learning and agents
+
+| Project | What it explores | Method and evidence |
+| --- | --- | --- |
+| [**RL Autonomous Navigation**](https://github.com/ajinkya-awari/rl-autonomous-navigation) | Which learner copes best with a stochastic gridworld. | Tabular Q-learning, Double DQN and PPO on FrozenLake-v1: convergence, sample efficiency and animated policies. |
+| [**Curious Adaptive Planner**](https://github.com/ajinkya-awari/curious-adaptive-planner) | Whether curiosity helps a planner under bounded compute. | Curiosity-augmented value iteration with adaptive policy arbitration. |
+| [**Adaptive AI Monitoring**](https://github.com/ajinkya-awari/adaptive-ai-monitoring) | Catching an RL agent that goes wrong during training. | Detects reward hacking, entropy spikes and behavioural drift through KL divergence; includes a PID hardware loop. |
+| [**LLM Reasoning Orchestrator**](https://github.com/ajinkya-awari/llm-reasoning-orchestrator) | Reducing LLM hallucination on engineering maths. | The LLM routes calculations to a SymPy solver for exact answers (neuro-symbolic). |
+
+#### 📐 Optimisation, algorithms and data
+
+| Project | What it explores | Method and evidence |
+| --- | --- | --- |
+| [**NN Optimizer Study**](https://github.com/ajinkya-awari/nn-optimizer-study) | How optimisers differ on the same network. | SGD, Adam, RMSprop, Adagrad and L-BFGS on CIFAR-10, with gradient-norm tracking and loss-landscape plots. |
+| [**Algorithm Complexity Visualizer**](https://github.com/ajinkya-awari/algorithm-complexity-visualizer) | Checking Big-O claims against measured behaviour. | Exact operation counts for four sorts and Dijkstra, log-log regression, PDF report and an interactive web visualiser. |
+| [**Advanced DSA Patterns**](https://github.com/ajinkya-awari/Advanced-DSA-Patterns) | A reference library of algorithmic patterns. | 60+ patterns, each with automated tests. |
+| [**Market Density Cloud**](https://github.com/ajinkya-awari/market-density-cloud) | Hidden structure across stocks, crypto and forex. | PCA and clustering with an interactive dashboard. |
 
 </details>
 
