@@ -231,7 +231,7 @@ Status key: ✅ verified result · 🟡 measured, weak or partial · ⛔ documen
 <td valign="top" align="center">09</td>
 <td valign="top" align="left"><b><ins>NHSCopilot-Eval</ins></b></td>
 <td valign="top" align="left">An evaluation harness for NHS-style AI assistant workflows, with scoring contracts that run without any provider or patient data.</td>
-<td valign="top" align="left"><a href="https://github.com/ajinkya-awari/-nhscopilot-eval">↗</a> 🧪 33 public tests. Makes no clinical or NHS-endorsement claims.</td>
+<td valign="top" align="left"><a href="https://github.com/ajinkya-awari/nhscopilot-eval">↗</a> 🧪 33 public tests. Makes no clinical or NHS-endorsement claims.</td>
 </tr>
 <tr>
 <td valign="top" align="center">10</td>
@@ -261,7 +261,7 @@ Status key: ✅ verified result · 🟡 measured, weak or partial · ⛔ documen
 <td valign="top" align="center">19</td>
 <td valign="top" align="left"><b><ins>NICE-RAG</ins></b></td>
 <td valign="top" align="left">A retrieval scaffold where every answer must cite its NICE guideline source.</td>
-<td valign="top" align="left"><a href="https://github.com/ajinkya-awari/-nice-rag">↗</a> 🧪 151 tests; 5 CC BY 4.0 PMC records verified. NICE content itself is gated.</td>
+<td valign="top" align="left"><a href="https://github.com/ajinkya-awari/nice-rag">↗</a> 🧪 151 tests; 5 CC BY 4.0 PMC records verified. NICE content itself is gated.</td>
 </tr>
 </tbody>
 </table>
