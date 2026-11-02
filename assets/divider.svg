@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="14" viewBox="0 0 880 14" role="img" aria-labelledby="t d">
+  <title id="t">Section divider</title>
+  <desc id="d">Decorative animated divider.</desc>
+  <style type="text/css"><![CDATA[
+    .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .run { animation: run 3.6s ease-in-out infinite; } @keyframes run { from { transform: translateX(-260px); } to { transform: translateX(880px); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  ]]></style>
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#58a6ff" stop-opacity="0"/><stop offset=".5" stop-color="#3fb950"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/></linearGradient>
+  <clipPath id="c"><rect width="880" height="14"/></clipPath></defs>
+  <g clip-path="url(#c)"><rect x="0" y="6" width="880" height="2" rx="1" fill="#30363d"/><rect class="run" x="0" y="6" width="260" height="2" rx="1" fill="url(#g)"/></g>
+</svg>

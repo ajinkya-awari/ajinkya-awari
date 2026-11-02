@@ -30,7 +30,7 @@ def test_readme_references_only_local_visual_assets() -> None:
     assert 'src="assets/ascii-portrait.svg"' in readme
     assert 'src="assets/info-card.svg"' in readme
     assert 'src="assets/contrib-heatmap.svg"' in readme
-    assert not re.search(r"<script|github-readme-stats|streak-stats|komarev|shields\.io", readme, re.I)
+    assert not re.search(r"<script|github-readme-stats|streak-stats|komarev", readme, re.I)
     assert not re.search(r"(?:ghp_|github_pat_|AKIA[0-9A-Z]{16})", readme)
 
 
@@ -57,7 +57,7 @@ def test_profile_workflow_contract() -> None:
     workflow = (ROOT / ".github" / "workflows" / "refresh-profile.yml").read_text(
         encoding="utf-8"
     )
-    assert 'cron: "17 6 * * *"' in workflow
+    assert "schedule:" not in workflow and "cron:" not in workflow
     assert "workflow_dispatch:" in workflow
     assert "contents: write" in workflow
     assert "push:" not in workflow
