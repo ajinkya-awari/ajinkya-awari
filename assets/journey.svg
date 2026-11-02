@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="300" viewBox="0 0 880 300" role="img" aria-labelledby="t d">
+  <title id="t">The journey in three scenes</title>
+  <desc id="d">Scene 1, the failure: frozen BatchNorm layers collapsed accuracy from about 99 percent to 14 percent; found, fixed and published in 2023. Scene 2, the build: 20 gated projects, synthetic first. Scene 3, the ask: take interpretability from a toy model to a real one.</desc>
+  <style type="text/css"><![CDATA[
+    .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .sc { animation: rise .8s cubic-bezier(.2,.8,.2,1) backwards; } @keyframes rise { from { opacity: 0; transform: translateY(16px); } } .flow { stroke-dasharray: 6 8; animation: flow 1.4s linear infinite; } @keyframes flow { to { stroke-dashoffset: -28; } } .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.6s ease-in-out infinite; } @keyframes pulse { 50% { transform: scale(1.35); opacity: .5; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  ]]></style>
+  <rect width="880" height="300" rx="12" fill="#0d1117"/>
+  <rect x=".5" y=".5" width="879" height="299" rx="11.5" fill="none" stroke="#30363d"/>
+  <line class="flow" x1="60" y1="46" x2="820" y2="46" stroke="#30363d" stroke-width="2"/>
+  <g class="sc" style="animation-delay:0.20s">
+    <circle class="pulse" style="animation-delay:0.80s" cx="54.0" cy="46" r="10" fill="#3fb950" opacity=".25"/>
+    <circle cx="54.0" cy="46" r="6" fill="#3fb950"/>
+    <text class="m" x="38.0" y="92" font-size="11" letter-spacing="1" fill="#3fb950">SCENE 1 · THE FAILURE</text>
+    <text class="m" x="38.0" y="122" font-size="18" font-weight="700" fill="#ffffff">A silent failure</text>
+    <text class="m" x="38.0" y="156" font-size="13" fill="#e6edf3" opacity=".85">Frozen BatchNorm layers dropped</text>
+    <text class="m" x="38.0" y="178" font-size="13" fill="#e6edf3" opacity=".85">accuracy from ~99% to ~14%.</text>
+    <text class="m" x="38.0" y="200" font-size="13" fill="#e6edf3" opacity=".85">I traced the cause, fixed it and</text>
+    <text class="m" x="38.0" y="222" font-size="13" fill="#e6edf3" opacity=".85">published it. IJARSCT, 2023.</text>
+  </g>
+  <g class="sc" style="animation-delay:0.55s">
+    <circle class="pulse" style="animation-delay:1.15s" cx="327.3" cy="46" r="10" fill="#58a6ff" opacity=".25"/>
+    <circle cx="327.3" cy="46" r="6" fill="#58a6ff"/>
+    <text class="m" x="311.3" y="92" font-size="11" letter-spacing="1" fill="#58a6ff">SCENE 2 · THE BUILD</text>
+    <text class="m" x="311.3" y="122" font-size="18" font-weight="700" fill="#ffffff">20 projects, gated</text>
+    <text class="m" x="311.3" y="156" font-size="13" fill="#e6edf3" opacity=".85">Synthetic contracts first. Real</text>
+    <text class="m" x="311.3" y="178" font-size="13" fill="#e6edf3" opacity=".85">data only after access, licence</text>
+    <text class="m" x="311.3" y="200" font-size="13" fill="#e6edf3" opacity=".85">and privacy gates clear. Every</text>
+    <text class="m" x="311.3" y="222" font-size="13" fill="#e6edf3" opacity=".85">number reported as measured.</text>
+  </g>
+  <g class="sc" style="animation-delay:0.90s">
+    <circle class="pulse" style="animation-delay:1.50s" cx="600.7" cy="46" r="10" fill="#d29922" opacity=".25"/>
+    <circle cx="600.7" cy="46" r="6" fill="#d29922"/>
+    <text class="m" x="584.7" y="92" font-size="11" letter-spacing="1" fill="#d29922">SCENE 3 · THE ASK</text>
+    <text class="m" x="584.7" y="122" font-size="18" font-weight="700" fill="#ffffff">Real-model research</text>
+    <text class="m" x="584.7" y="156" font-size="13" fill="#e6edf3" opacity=".85">Take interpretability from a toy</text>
+    <text class="m" x="584.7" y="178" font-size="13" fill="#e6edf3" opacity=".85">model to a real one. Looking for</text>
+    <text class="m" x="584.7" y="200" font-size="13" fill="#e6edf3" opacity=".85">a fellowship, a paid placement</text>
+    <text class="m" x="584.7" y="222" font-size="13" fill="#e6edf3" opacity=".85">or a role that funds the work.</text>
+  </g>
+</svg>

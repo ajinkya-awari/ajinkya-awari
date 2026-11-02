@@ -1,172 +1,121 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Ajinkya%20Awari&fontSize=56&fontColor=fff&animation=twinkling&fontAlignY=40&desc=ML%20Engineer%20%C2%B7%20Biomedical%20AI%20%C2%B7%20Reliable%20Learning%20Systems&descAlignY=60&descAlign=50&descSize=17" width="100%" />
+<div align="center">
+<img src="assets/ascii-portrait.svg" alt="Animated terminal: Ajinkya Awari, MSc AI for Biomedicine and Healthcare at UCL. I build ML systems that tell you when they are wrong." width="100%" />
+</div>
+
+<div align="center">
+<img src="assets/info-card.svg" alt="20 public repos, 7 with real results, 81 tests with CI green on the flagship benchmark, 3 negative results published on purpose" width="100%" />
+</div>
 
 <div align="center">
 
-[![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![PyTorch](https://img.shields.io/badge/PyTorch-research-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org)
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-ajinkya1807-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/ajinkya1807)
-[![Kaggle](https://img.shields.io/badge/Kaggle-ajinkya1225-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://www.kaggle.com/ajinkya1225)
-[![GitHub followers](https://img.shields.io/github/followers/ajinkya-awari?style=flat-square&logo=github&color=181717)](https://github.com/ajinkya-awari)
+[**GitHub**](https://github.com/ajinkya-awari) · [**Hugging Face**](https://huggingface.co/ajinkya1807) · [**Kaggle**](https://www.kaggle.com/ajinkya1225) · [**Email**](mailto:ajinkya18072001@gmail.com)
 
 </div>
 
-I am an **ML Engineer** currently pursuing an **MSc in Artificial Intelligence for Biomedicine and Healthcare at University College London (UCL), UK**.
-
-I build machine-learning systems that hold up past the demo: reproducible pipelines, leakage-safe evaluation, provenance-first retrieval, graph models, protein-learning experiments, privacy boundaries, and explanations that let people inspect model decisions before trusting them.
-
-My portfolio contains **20 public repositories out of 21 numbered projects**. Every repository shows its actual status, including when the evidence is synthetic, pilot-scale, externally gated, or planning-only. I do not present synthetic contracts as clinical validation.
+<sub>**The seven with real results:** [AIXI-Complexity](https://github.com/ajinkya-awari/aixi-complexity-benchmark) · [FedScope](https://github.com/ajinkya-awari/fedscope) · [GraphGPS-Upgrade](https://github.com/ajinkya-awari/graphgps-upgrade) · [ESM2-Protein-Fitness](https://github.com/ajinkya-awari/esm2-protein-fitness) · [AFBind](https://github.com/ajinkya-awari/afbind) · [F2-HistoGNN](https://github.com/ajinkya-awari/f2-histognn) · [SolomonoffBench](https://github.com/ajinkya-awari/solomonoff-bench). **The three negative results** are in the ledger below, marked 🟡 and ⛔.</sub>
 
 ---
 
-## Research Areas
+## The thesis
 
-| Area | What I build |
-| --- | --- |
-| **Reliable ML / MLOps** | Reproducible training pipelines, leakage-safe splits, experiment tracking, versioned inference |
-| **Biomedical AI** | Graph neural networks for pathology, protein fitness, clinical retrieval, ICD coding |
-| **Evaluation & Safety** | Agent-trace evaluation, medical-LLM safety contracts, XAI benchmarks |
-| **Privacy & Federated Learning** | Differential-privacy contracts, federated baselines, privacy-boundary testing |
-| **Interpretability** | Mechanistic attribution, activation capture, structured intervention tests |
+Most ML portfolios show what worked. Mine shows what was **measured**, including the runs that came back near chance. Every project here starts with leakage-safe splits, frozen budgets and a synthetic test layer, and only touches real data once access, licence and privacy gates are cleared. If a result is weak, the README says so in the first screen.
 
----
+I'm an incoming **MSc Artificial Intelligence for Biomedicine and Healthcare** student at **UCL**, working on reliable learning systems for biomedical problems: protein ML, graph learning, federated and private learning, evaluation and interpretability.
 
-## Selected Work
-
-| # | Project | Domain | Status | Verified result or limitation |
-| ---: | --- | --- | --- | --- |
-| 05 | [FedScope](https://github.com/ajinkya-awari/fedscope) | Federated learning | Publicly verified | F1 approximately 0.78-0.80 across three seeds |
-| 12 | [GraphGPS-Upgrade](https://github.com/ajinkya-awari/graphgps-upgrade) | Graph learning | Publicly verified | Full-budget graph ablation with public evidence |
-| 04 | [AFBind](https://github.com/ajinkya-awari/afbind) | Structural biology | Publicly verified | BindingDB Ki baseline evidence; not an AF2 comparison claim |
-| 07 | [F2-HistoGNN](https://github.com/ajinkya-awari/f2-histognn) | Computational pathology | Pilot benchmark | Four models and three seeds; not clinical validation |
-| 15 | [ESM2 Protein Fitness](https://github.com/ajinkya-awari/esm2-protein-fitness) | Protein ML | Publicly verified | Public benchmark and 112 tests in the current suite |
-| 06 | [KnetMiner-LLM](https://github.com/ajinkya-awari/knetminer-llm) | Biomedical graph retrieval | Public release | Strict Qwen acceptance gap documented honestly |
-| 19 | [NICE-RAG](https://github.com/ajinkya-awari/-nice-rag) | Clinical retrieval | Complete with limitations | 151 tests and five open PMC records; NICE/provider gates remain |
-| 20 | [AIXI-Complexity](https://github.com/ajinkya-awari/aixi-complexity-benchmark) | Agent evaluation | Public benchmark | Fixed synthetic suite; primary Qwen valid on 86/200 records |
-
----
-
-## Full Portfolio - All 21 Projects
-
-> **20 of 21 projects have public repositories.** Project 14 remains intentionally unpublished because it is planning-only and requires restricted-data authorization.
-
-### Reliable ML & MLOps
-
-| # | Project | Status | Link |
-| ---: | --- | --- | --- |
-| 00 | **SolomonoffBench** - empirical LLM sequence-compression benchmark | Complete with limitations | [Repository](https://github.com/ajinkya-awari/solomonoff-bench) |
-| 01 | **T1 MLOps Stack** - training pipeline, tracking, and inference engineering | Complete with limitations | [Repository](https://github.com/ajinkya-awari/t1-mlops-stack) |
-| 02 | **T2 XAI Triple** - Grad-CAM, SHAP, and Integrated Gradients | Complete with limitations | [Repository](https://github.com/ajinkya-awari/xai-medical-imaging-project-02) |
-| 03 | **AgentTrace** - evaluation harness for agent tool-call traces | Implementation complete; provider gated | [Repository](https://github.com/ajinkya-awari/agentrace) |
-| 12 | **GraphGPS-Upgrade** - controlled graph-model ablation | Public benchmark release | [Repository](https://github.com/ajinkya-awari/graphgps-upgrade) |
-| 20 | **AIXI-Complexity** - reproducible agent-complexity benchmark | Public benchmark with limitations | [Repository](https://github.com/ajinkya-awari/aixi-complexity-benchmark) |
-
-### Biomedical & Protein Intelligence
-
-| # | Project | Status | Link |
-| ---: | --- | --- | --- |
-| 04 | **AFBind** - protein-ligand affinity benchmark | Public benchmark evidence | [Repository](https://github.com/ajinkya-awari/afbind) |
-| 06 | **KnetMiner-LLM** - evidence-grounded biomedical graph retrieval | Public static release | [Repository](https://github.com/ajinkya-awari/knetminer-llm) |
-| 07 | **F2-HistoGNN** - nuclei-graph pathology benchmark | Public pilot with limitations | [Repository](https://github.com/ajinkya-awari/f2-histognn) |
-| 15 | **ESM2 Protein Fitness** - mutation-fitness prediction | Public benchmark release | [Repository](https://github.com/ajinkya-awari/esm2-protein-fitness) |
-| 18 | **OmicsGraph** - governance-first omics graph pipeline | Public synthetic release | [Repository](https://github.com/ajinkya-awari/omicsgraph) |
-
-### Clinical Systems & Safety
-
-| # | Project | Status | Link |
-| ---: | --- | --- | --- |
-| 08 | **ClinicalBERT-ICD** - leakage-safe ICD coding scaffold | Synthetic release; MIMIC/DUA gated | [Repository](https://github.com/ajinkya-awari/clinicalbert-icd) |
-| 09 | **NHSCopilot-Eval** - NHS-facing AI evaluation harness | Synthetic release with limitations | [Repository](https://github.com/ajinkya-awari/-nhscopilot-eval) |
-| 10 | **PubMedQA-LoRA** - evidence-classification fine-tuning scaffold | Partial/recovery scope; further execution gated | [Repository](https://github.com/ajinkya-awari/pubmedqa-lora) |
-| 11 | **MedLLM-Safety** - provider-free medical-LLM safety contracts | Synthetic safety release | [Repository](https://github.com/ajinkya-awari/medllm-safety) |
-| 13 | **ClinVision** - auditable clinical-vision prototype | Synthetic release with limitations | [Repository](https://github.com/ajinkya-awari/clinvision) |
-| 14 | **CausalClinical** - causal clinical benchmark design | Planning-only; no public repository | - |
-| 19 | **NICE-RAG** - citation-first guideline retrieval | Complete with limitations | [Repository](https://github.com/ajinkya-awari/-nice-rag) |
-
-### Privacy & Federated Learning
-
-| # | Project | Status | Link |
-| ---: | --- | --- | --- |
-| 05 | **FedScope** - federated baselines and multi-seed evaluation | Public benchmark release | [Repository](https://github.com/ajinkya-awari/fedscope) |
-| 17 | **PrivacyFL-DP** - privacy-preserving federated-learning contracts | Synthetic scope; real DP-FL execution not released | [Repository](https://github.com/ajinkya-awari/privacyfl-dp) |
-
-### Interpretability & Theoretical Systems
-
-| # | Project | Status | Link |
-| ---: | --- | --- | --- |
-| 16 | **Mech-Interp** - deterministic toy interpretability contracts | Synthetic release | [Repository](https://github.com/ajinkya-awari/mech-interp) |
-
----
-
-## Limitations, stated plainly
-
-- Several projects are synthetic or contract-level releases because restricted datasets, clinical approvals, provider credentials, or model access were not available.
-- Project 08 requires MIMIC-III/DUA approval before real-data work.
-- Project 14 remains planning-only and has no public repository.
-- Project 17 has no released measured epsilon or real-data utility result; only the synthetic privacy/federated-learning contract layer is public.
-- Project 20 uses a fixed synthetic suite. The primary Qwen arm is valid on 86/200 records covering 10/20 tasks. The constrained arm is post-hoc, secondary, and exploratory; the two arms are not directly comparable.
-- Project 07 is pilot-scale and is not clinical validation.
-- Public repositories do not imply regulatory approval, clinical deployment, or production readiness.
-
----
-
-## Technologies
+## The journey
 
 <div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-retrieval-8B5CF6?style=for-the-badge)
-![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
-
+<img src="assets/journey.svg" alt="Three scenes: the failure (frozen BatchNorm collapsed accuracy, found and published in 2023), the build (20 gated projects), the ask (real-model research)" width="100%" />
 </div>
 
 ---
 
-## How I Work
+## Case file: the evidence ledger
 
-- **Contracts before code** - define acceptance tests and failure states first.
-- **Synthetic before restricted** - validate the pipeline before requesting sensitive data or provider access.
-- **Explicit gates** - data, models, APIs, GPU, privacy, and publication require recorded authorization.
-- **Evidence before claims** - preserve test counts, seeds, hashes, provenance, and limitations.
-- **Honest status** - every repository distinguishes verified, synthetic-only, blocked, and planning-only work.
-- **No hidden attribution** - public repositories contain no AI session transcripts or AI co-author trailers.
+Status key: ✅ verified result · 🟡 measured, weak or partial · ⛔ documented gap
 
----
-
-## Current professional focus
-
-I am looking for ML engineering, research engineering, biomedical AI, responsible-AI, MLOps, and research-assistant opportunities in the UK and internationally.
-
-The strongest areas for collaboration are protein intelligence, clinical AI evaluation, graph learning, privacy-preserving ML, and reproducible research infrastructure.
+| Project | What was measured | Status |
+| --- | --- | :---: |
+| [**AIXI-Complexity**](https://github.com/ajinkya-awari/aixi-complexity-benchmark) | 5 agent types on 20 frozen finite-state tasks. 81 tests, CI green. No difficulty proxy stays significant after Holm correction (min adjusted p = 0.144). | ✅ |
+| [**FedScope**](https://github.com/ajinkya-awari/fedscope) | FedAvg, FedProx and FedNova against a centralized baseline. F1 0.78–0.80 over 3 seeds. | ✅ |
+| [**GraphGPS-Upgrade**](https://github.com/ajinkya-awari/graphgps-upgrade) | Frozen 30-epoch budget on a Tesla T4. Test ROC-AUC: GPS 0.748, GIN 0.698, GCN 0.693 (3 seeds). | ✅ |
+| [**ESM2-Protein-Fitness**](https://github.com/ajinkya-awari/esm2-protein-fitness) | Protein mutation fitness from ESM2 embeddings. 87/87 tests, Kaggle kernel run complete. | ✅ |
+| [**PrivacyFL-DP**](https://github.com/ajinkya-awari/privacyfl-dp) | Real NIH ChestX-ray14, 5 federated clients, Opacus. 1 of 6 privacy levels run so far: measured ε = 0.096, macro-AUC 0.497, which is chance. Reported as is. | 🟡 |
+| [**KnetMiner-LLM**](https://github.com/ajinkya-awari/knetminer-llm) | Evidence-grounded biomedical graph retrieval. Release engineering complete, but strict per-answer acceptance is **0/30**. [Live demo](https://ajinkya-awari.github.io/knetminer-llm/demo/). | ⛔ |
 
 ---
 
-## GitHub Activity
+## All 21 projects, 00 to 20
+
+### Reliable ML and MLOps
+
+| # | Project | What it is | Status |
+| ---: | --- | --- | --- |
+| 00 | [SolomonoffBench](https://github.com/ajinkya-awari/solomonoff-bench) | Do LLMs compress like optimal predictors? Complexity-vs-compression benchmark. | ✅ Closed, with limitations |
+| 01 | [T1 MLOps Stack](https://github.com/ajinkya-awari/t1-mlops-stack) | Training pipeline, experiment tracking and a deployed inference app. | 🟡 Complete with limitations |
+| 02 | [T2 XAI Triple](https://github.com/ajinkya-awari/xai-medical-imaging-project-02) | Grad-CAM, SHAP and Integrated Gradients on NIH ChestX-ray14 (mean IoU 0.1289). | 🟡 Complete with limitations |
+| 03 | [AgentTrace](https://github.com/ajinkya-awari/agentrace) | Evaluation harness for LLM agent tool-call traces. Live runs wait on provider quota. | ⛔ Implemented, provider-gated |
+| 12 | [GraphGPS-Upgrade](https://github.com/ajinkya-awari/graphgps-upgrade) | GPS vs GCN and GIN ablation under a frozen compute budget. | ✅ Verified |
+
+### Biomedical and protein intelligence
+
+| # | Project | What it is | Status |
+| ---: | --- | --- | --- |
+| 04 | [AFBind](https://github.com/ajinkya-awari/afbind) | AlphaFold2-guided protein-ligand affinity benchmark. ECFP6 baseline Pearson r = 0.4765 on BindingDB Ki, leakage-safe split, 37 tests. | ✅ Verified |
+| 06 | [KnetMiner-LLM](https://github.com/ajinkya-awari/knetminer-llm) | Evidence-grounded biomedical graph retrieval with leakage-safe HGT evaluation. | ⛔ Strict acceptance 0/30 |
+| 07 | [F2-HistoGNN](https://github.com/ajinkya-awari/f2-histognn) | Nuclei-graph benchmark for LUAD/LUSC histology. 62 tests, real-data pilot (4 models × 3 seeds). | ✅ Pilot-scale |
+| 15 | [ESM2-Protein-Fitness](https://github.com/ajinkya-awari/esm2-protein-fitness) | Protein fitness prediction on ESM2 embeddings. | ✅ Verified |
+| 18 | [OmicsGraph](https://github.com/ajinkya-awari/omicsgraph) | Governance-first contracts for single-cell omics graph learning. | 🧪 Synthetic scope |
+
+### Clinical systems and safety
+
+| # | Project | What it is | Status |
+| ---: | --- | --- | --- |
+| 08 | [ClinicalBERT-ICD](https://github.com/ajinkya-awari/clinicalbert-icd) | Leakage-safe ICD-9 multi-label scaffold, LoRA vs full fine-tuning (171 tests). | 🧪 Synthetic, MIMIC-III access pending |
+| 09 | [NHSCopilot-Eval](https://github.com/ajinkya-awari/-nhscopilot-eval) | Evaluation harness for NHS-facing AI copilot workflows (33 tests). | 🧪 Synthetic scope |
+| 10 | [PubMedQA-LoRA](https://github.com/ajinkya-awari/pubmedqa-lora) | QLoRA vs zero-shot on PubMedQA evidence classification. Full runs wait on GPU quota. | ⛔ Quota-gated |
+| 11 | [MedLLM-Safety](https://github.com/ajinkya-awari/medllm-safety) | Provider-free safety contracts for medical-LLM evaluation (63 tests). | 🧪 Synthetic scope |
+| 13 | [ClinVision](https://github.com/ajinkya-awari/clinvision) | Auditable image-to-text prototype on licence-cleared imaging data. | 🧪 Synthetic scope |
+| 14 | *CausalClinical* | Causal-inference benchmark design for MIMIC-III treatment effects. No repository yet. | 🗂 Planning, access required |
+| 19 | [NICE-RAG](https://github.com/ajinkya-awari/-nice-rag) | Citation-first NICE guideline retrieval (151 tests). NICE content is gated. | 🧪 Synthetic scope |
+
+### Privacy and federated learning
+
+| # | Project | What it is | Status |
+| ---: | --- | --- | --- |
+| 05 | [FedScope](https://github.com/ajinkya-awari/fedscope) | FedAvg / FedProx / FedNova vs centralized baseline (F1 0.78–0.80, 3 seeds). | ✅ Verified |
+| 17 | [PrivacyFL-DP](https://github.com/ajinkya-awari/privacyfl-dp) | Federated learning with differential privacy on NIH ChestX-ray14. | 🟡 1 of 6 privacy levels run |
+
+### Interpretability and theory
+
+| # | Project | What it is | Status |
+| ---: | --- | --- | --- |
+| 16 | [Mech-Interp](https://github.com/ajinkya-awari/mech-interp) | Deterministic toy contracts for activation capture, attribution and interventions. Real-model work is the next step. | 🧪 Toy scale |
+| 20 | [AIXI-Complexity](https://github.com/ajinkya-awari/aixi-complexity-benchmark) | Agents on 20 frozen finite-state tasks with declared proxy vectors. 81 tests, CI green. | ✅ Released, with limitations |
+
+`🧪` means the contract and test layer is verified on synthetic data only. It is not a claim about real data.
+
+---
+
+## What I'm looking for
+
+A **research fellowship, paid placement or role** that funds the next step: taking interpretability and evaluation from toy models to real ones, with the same habit of reporting exactly what the numbers say. My dissertation period (March to September 2027) is open for a placement.
+
+If you work on reliable ML for biomedicine, protein or graph learning, privacy-preserving ML, or model evaluation, the fastest way to judge me is to open one repo above and read its Limitations section. Then [email me](mailto:ajinkya18072001@gmail.com).
+
+---
+
+## GitHub activity
 
 <div align="center">
 <img src="assets/contrib-heatmap.svg" alt="Contribution heatmap" width="860" />
 </div>
 
-<sub>Activity calendar generated from GitHub public contribution data. No JavaScript or tracking widgets.</sub>
+<sub>Calendar generated daily from GitHub's public contribution data. No JavaScript or tracking widgets.</sub>
 
 ---
 
-## Contact
-
-- **GitHub** - [github.com/ajinkya-awari](https://github.com/ajinkya-awari)
-- **Hugging Face** - [huggingface.co/ajinkya1807](https://huggingface.co/ajinkya1807)
-- **Kaggle** - [kaggle.com/ajinkya1225](https://www.kaggle.com/ajinkya1225)
-- **Email** - ajinkya18072001@gmail.com
-
----
-
-## Published Research
+## Published research
 
 | Paper | Venue | DOI |
 | --- | --- | --- |
@@ -176,9 +125,7 @@ The strongest areas for collaboration are protein intelligence, clinical AI eval
 ---
 
 <details>
-<summary><strong>Earlier experiments</strong></summary>
-
-These projects predate the numbered portfolio and form part of the broader engineering record.
+<summary><strong>Earlier experiments</strong> (before the numbered portfolio)</summary>
 
 | Project | Area |
 | --- | --- |
@@ -193,11 +140,10 @@ These projects predate the numbered portfolio and form part of the broader engin
 | [NN Optimizer Study](https://github.com/ajinkya-awari/nn-optimizer-study) | Optimizer comparisons |
 | [IoT Anomaly Detection](https://github.com/ajinkya-awari/iot-anomaly-detection) | Industrial anomaly detection |
 | [Advanced DSA Patterns](https://github.com/ajinkya-awari/Advanced-DSA-Patterns) | Tested algorithmic patterns |
+| [Market Density Cloud](https://github.com/ajinkya-awari/market-density-cloud) | PCA and clustering for market structure |
 
 </details>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%" />
-
 <div align="center">
-<sub>Built and maintained by Ajinkya Awari · ML Engineer · UCL MSc Artificial Intelligence for Biomedicine and Healthcare</sub>
+<sub>Ajinkya Awari · UCL MSc Artificial Intelligence for Biomedicine and Healthcare</sub>
 </div>

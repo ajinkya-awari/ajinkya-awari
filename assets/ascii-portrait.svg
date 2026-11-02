@@ -1,42 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="420" height="330" viewBox="0 0 420 330" role="img" aria-labelledby="title description">
-  <title id="title">AA terminal portrait</title>
-  <desc id="description">A privacy-safe abstract terminal illustration using the initials AA. It is not a photograph.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="292" viewBox="0 0 880 292" role="img" aria-labelledby="t d">
+  <title id="t">Ajinkya Awari: terminal introduction</title>
+  <desc id="d">Animated terminal. Ajinkya Awari, MSc AI for Biomedicine and Healthcare at UCL. I build ML systems that tell you when they are wrong. 20 public repos, 7 with real results, 3 negative results published on purpose. Open to research fellowships and paid placements from March 2027.</desc>
   <style type="text/css"><![CDATA[
-    .terminal { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
-    .blink { animation: blink 1.15s steps(2, jump-none) infinite; }
-    @keyframes blink { 50% { opacity: 0; } }
-    @media (prefers-reduced-motion: reduce) { .blink { display: none; } }
+    .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    #c0r { animation: type0 0.35s steps(8, end) 0.50s backwards; }@keyframes type0 { from { width: 0; } }
+    #c1r { animation: type1 1.71s steps(61, end) 1.03s backwards; }@keyframes type1 { from { width: 0; } }
+    #c2r { animation: type2 0.45s steps(16, end) 2.92s backwards; }@keyframes type2 { from { width: 0; } }
+    #c3r { animation: type3 1.48s steps(53, end) 3.55s backwards; }@keyframes type3 { from { width: 0; } }
+    #c4r { animation: type4 0.45s steps(16, end) 5.21s backwards; }@keyframes type4 { from { width: 0; } }
+    #c5r { animation: type5 2.27s steps(81, end) 5.84s backwards; }@keyframes type5 { from { width: 0; } }
+    #c6r { animation: type6 1.74s steps(62, end) 8.29s backwards; }@keyframes type6 { from { width: 0; } }
+    .cur { animation: blink 1.1s steps(2, jump-none) infinite 10.20s; opacity: 0; } @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } }
+    .scan { animation: scan 5s linear infinite; } @keyframes scan { from { transform: translateX(-200px); } to { transform: translateX(900px); } }
+    .glow { animation: glow 4s ease-in-out infinite; } @keyframes glow { 50% { opacity: .35; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
   ]]></style>
-
-  <rect width="420" height="330" rx="12" fill="#0d1117"/>
-  <rect x="1" y="1" width="418" height="328" rx="11" fill="none" stroke="#30363d"/>
-  <rect x="1" y="1" width="418" height="30" rx="11" fill="#161b22"/>
-  <path d="M1 30h418" stroke="#30363d"/>
-  <circle cx="20" cy="16" r="5" fill="#ff7b72"/>
-  <circle cx="38" cy="16" r="5" fill="#d29922"/>
-  <circle cx="56" cy="16" r="5" fill="#7ee787"/>
-  <text class="terminal" x="76" y="21" fill="#8b949e" font-size="12">aa@profile:~</text>
-
-  <g class="terminal" fill="#7ee787" font-size="13">
-    <text x="24" y="57">$ whoami</text>
-    <text x="24" y="76" fill="#c9d1d9">ajinkya-awari</text>
+  <defs>
+    <linearGradient id="sc" x1="0" x2="1"><stop offset="0" stop-color="#3fb950" stop-opacity="0"/><stop offset=".5" stop-color="#3fb950"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/></linearGradient>
+    <radialGradient id="gl" cx=".85" cy=".1" r=".8"><stop offset="0" stop-color="#58a6ff" stop-opacity=".18"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/></radialGradient>
+    <clipPath id="frame"><rect width="880" height="292" rx="12"/></clipPath>
+  </defs>
+  <rect width="880" height="292" rx="12" fill="#0d1117"/>
+  <rect class="glow" width="880" height="292" rx="12" fill="url(#gl)"/>
+  <g clip-path="url(#frame)">
+    <rect width="880" height="32" fill="#161b22"/>
+    <rect class="scan" x="0" y="30" width="200" height="2" fill="url(#sc)"/>
   </g>
-
-  <g class="terminal" fill="#39d353" font-size="15" text-anchor="middle" aria-label="Abstract ASCII monogram">
-    <text x="210" y="116">      ██████      ██████      </text>
-    <text x="210" y="134">    ██      ██  ██      ██    </text>
-    <text x="210" y="152">   ██        ████        ██   </text>
-    <text x="210" y="170">   ██         ██         ██   </text>
-    <text x="210" y="188">    ██       ████       ██    </text>
-    <text x="210" y="206">      ████████  ████████      </text>
-    <text x="210" y="224">          AA / ML / RESEARCH </text>
-  </g>
-
-  <g class="terminal" fill="#8b949e" font-size="12">
-    <text x="24" y="266">privacy-safe visual identity</text>
-    <text x="24" y="286" fill="#c9d1d9">no photo · no external assets</text>
-    <text x="24" y="310" fill="#7ee787">$ build reliable learning systems</text>
-    <rect class="blink" x="296" y="300" width="8" height="15" rx="1" fill="#7ee787" aria-hidden="true"/>
-  </g>
+  <path d="M0 32h880" stroke="#30363d"/>
+  <rect x=".5" y=".5" width="879" height="291" rx="11.5" fill="none" stroke="#30363d"/>
+  <circle cx="20" cy="16" r="5" fill="#ff7b72"/><circle cx="38" cy="16" r="5" fill="#d29922"/><circle cx="56" cy="16" r="5" fill="#3fb950"/>
+  <text class="m" x="76" y="20" font-size="12" fill="#8b949e">ajinkya-awari@ucl:~</text>
+  <clipPath id="c0"><rect id="c0r" x="27.0" y="57" width="78.0" height="25"/></clipPath>
+  <text class="m" clip-path="url(#c0)" x="28.0" y="74" font-size="15" textLength="72.0" lengthAdjust="spacing"><tspan fill="#3fb950">$ </tspan><tspan fill="#e6edf3">whoami</tspan></text>
+  <clipPath id="c1"><rect id="c1r" x="27.0" y="81" width="555.0" height="25"/></clipPath>
+  <text class="m" clip-path="url(#c1)" x="28.0" y="98" font-size="15" textLength="549.0" lengthAdjust="spacing"><tspan fill="#8b949e">ajinkya-awari  ·  MSc AI for Biomedicine &amp; Healthcare  ·  UCL</tspan></text>
+  <clipPath id="c2"><rect id="c2r" x="27.0" y="117" width="150.0" height="25"/></clipPath>
+  <text class="m" clip-path="url(#c2)" x="28.0" y="134" font-size="15" textLength="144.0" lengthAdjust="spacing"><tspan fill="#3fb950">$ </tspan><tspan fill="#e6edf3">cat thesis.txt</tspan></text>
+  <clipPath id="c3"><rect id="c3r" x="27.0" y="146" width="705.6" height="32"/></clipPath>
+  <text class="m" clip-path="url(#c3)" x="28.0" y="170" font-size="22" textLength="699.6" lengthAdjust="spacing" font-weight="700"><tspan fill="#ffffff">I build ML systems that tell you when they are wrong.</tspan></text>
+  <clipPath id="c4"><rect id="c4r" x="27.0" y="189" width="150.0" height="25"/></clipPath>
+  <text class="m" clip-path="url(#c4)" x="28.0" y="206" font-size="15" textLength="144.0" lengthAdjust="spacing"><tspan fill="#3fb950">$ </tspan><tspan fill="#e6edf3">./status --now</tspan></text>
+  <clipPath id="c5"><rect id="c5r" x="27.0" y="213" width="735.0" height="25"/></clipPath>
+  <text class="m" clip-path="url(#c5)" x="28.0" y="230" font-size="15" textLength="729.0" lengthAdjust="spacing"><tspan fill="#58a6ff">▸ 20 public repos · 7 with real results · 3 negative results published on purpose</tspan></text>
+  <clipPath id="c6"><rect id="c6r" x="27.0" y="237" width="564.0" height="25"/></clipPath>
+  <text class="m" clip-path="url(#c6)" x="28.0" y="254" font-size="15" textLength="558.0" lengthAdjust="spacing"><tspan fill="#58a6ff">▸ open to research fellowships &amp; paid placements from Mar 2027</tspan></text>
+  <rect class="cur" x="592.0" y="241" width="9" height="16" rx="1" fill="#3fb950"/>
 </svg>
