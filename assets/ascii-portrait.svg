@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="292" viewBox="0 0 880 292" role="img" aria-labelledby="t d">
   <title id="t">Ajinkya Awari: terminal introduction</title>
-  <desc id="d">Animated terminal. Ajinkya Awari, MSc AI for Biomedicine and Healthcare at UCL. I build ML systems that tell you when they are wrong. 20 public repos, 7 verified results, 3 negative results published on purpose. Open to research fellowships and paid placements from March 2027.</desc>
+  <desc id="d">Animated terminal. Ajinkya Awari, MSc AI for Biomedicine and Healthcare at UCL. I build ML systems that tell you when they are wrong. 20 public repos, 5 verified results, 3 negative results published on purpose. Open to research fellowships and paid placements from March 2027.</desc>
   <style type="text/css"><![CDATA[
     .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
     #c0r { animation: type0 0.35s steps(8, end) 0.50s backwards; }@keyframes type0 { from { width: 0; } }
@@ -42,7 +42,7 @@
   <clipPath id="c4"><rect id="c4r" x="27.0" y="189" width="150.0" height="25"/></clipPath>
   <text class="m" clip-path="url(#c4)" x="28.0" y="206" font-size="15" textLength="144.0" lengthAdjust="spacing"><tspan fill="#3fb950">$ </tspan><tspan fill="#e6edf3">./status --now</tspan></text>
   <clipPath id="c5"><rect id="c5r" x="27.0" y="213" width="726.0" height="25"/></clipPath>
-  <text class="m" clip-path="url(#c5)" x="28.0" y="230" font-size="15" textLength="720.0" lengthAdjust="spacing"><tspan fill="#58a6ff">▸ 20 public repos · 7 verified results · 3 negative results published on purpose</tspan></text>
+  <text class="m" clip-path="url(#c5)" x="28.0" y="230" font-size="15" textLength="720.0" lengthAdjust="spacing"><tspan fill="#58a6ff">▸ 20 public repos · 5 verified results · 4 negative results published on purpose</tspan></text>
   <clipPath id="c6"><rect id="c6r" x="27.0" y="237" width="564.0" height="25"/></clipPath>
   <text class="m" clip-path="url(#c6)" x="28.0" y="254" font-size="15" textLength="558.0" lengthAdjust="spacing"><tspan fill="#58a6ff">▸ open to research fellowships &amp; paid placements from Mar 2027</tspan></text>
   <rect class="cur" x="592.0" y="241" width="9" height="16" rx="1" fill="#3fb950"/>

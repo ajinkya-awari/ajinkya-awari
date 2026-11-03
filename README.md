@@ -11,10 +11,10 @@
 </div>
 
 <div align="center">
-<img src="assets/info-card.svg" alt="20 public repos, 7 verified results, 81 tests with CI green on the flagship benchmark, 3 negative results published on purpose" width="100%" />
+<img src="assets/info-card.svg" alt="20 public repos, 5 verified results, 81 tests with CI green on the flagship benchmark, 4 negative results published on purpose" width="100%" />
 </div>
 
-<sub>**The seven verified results:** [AIXI-Complexity](https://github.com/ajinkya-awari/aixi-complexity-benchmark) · [FedScope](https://github.com/ajinkya-awari/fedscope) · [GraphGPS-Upgrade](https://github.com/ajinkya-awari/graphgps-upgrade) · [ESM2-Protein-Fitness](https://github.com/ajinkya-awari/esm2-protein-fitness) · [AFBind](https://github.com/ajinkya-awari/afbind) · [F2-HistoGNN](https://github.com/ajinkya-awari/f2-histognn) · [SolomonoffBench](https://github.com/ajinkya-awari/solomonoff-bench). A partial real run, [PrivacyFL-DP](https://github.com/ajinkya-awari/privacyfl-dp), is in the ledger below. **The three negative results, published on purpose:** KnetMiner-LLM (strict acceptance 0/30), PrivacyFL-DP (chance-level AUC 0.497) and AIXI-Complexity (no difficulty proxy stays significant).</sub>
+<sub>**Five verified results:** [AIXI-Complexity](https://github.com/ajinkya-awari/aixi-complexity-benchmark) · [GraphGPS-Upgrade](https://github.com/ajinkya-awari/graphgps-upgrade) · [F2-HistoGNN](https://github.com/ajinkya-awari/f2-histognn) · [ESM2-Protein-Fitness](https://github.com/ajinkya-awari/esm2-protein-fitness) · [SolomonoffBench](https://github.com/ajinkya-awari/solomonoff-bench). **Baseline-stage:** [AFBind](https://github.com/ajinkya-awari/afbind) (ECFP6 baseline measured; AlphaFold2 comparison not yet run), [FedScope](https://github.com/ajinkya-awari/fedscope) (centralised baseline measured; federated strategies below chance at 3 CPU rounds) and [PrivacyFL-DP](https://github.com/ajinkya-awari/privacyfl-dp) (1 of 6 privacy points). **Four negative or null results, published on purpose:** KnetMiner-LLM (strict acceptance 0/30), PrivacyFL-DP (chance-level AUC 0.497), FedScope (federated runs below chance) and AIXI-Complexity (no difficulty proxy stays significant).</sub>
 
 **Open to ML Engineering, Biomedical AI, Research Engineering, Responsible AI and Research Assistant opportunities in the UK.**
 
@@ -89,8 +89,8 @@ Status key: ✅ verified result · 🟡 measured, weak or partial · ⛔ documen
 </tr>
 <tr>
 <td valign="top" align="left"><b><ins>FedScope</ins></b></td>
-<td valign="top" align="left">FedAvg, FedProx and FedNova against a centralized baseline. F1 0.78–0.80 over 3 seeds.</td>
-<td valign="top" align="center">✅ <a href="https://github.com/ajinkya-awari/fedscope">↗</a></td>
+<td valign="top" align="left">PathMNIST, 5 clients, 3 CPU rounds. The centralised baseline reaches macro-F1 0.78–0.80 (3 seeds), but all four federated strategies score below chance, so the comparison needs a GPU run. Reported as is.</td>
+<td valign="top" align="center">🟡 <a href="https://github.com/ajinkya-awari/fedscope">↗</a></td>
 </tr>
 <tr>
 <td valign="top" align="left"><b><ins>GraphGPS-Upgrade</ins></b></td>
@@ -99,7 +99,7 @@ Status key: ✅ verified result · 🟡 measured, weak or partial · ⛔ documen
 </tr>
 <tr>
 <td valign="top" align="left"><b><ins>ESM2-Protein-Fitness</ins></b></td>
-<td valign="top" align="left">Protein mutation fitness from ESM2 embeddings. 112 tests passing, Kaggle kernel run complete.</td>
+<td valign="top" align="left">ProteinGym, 40 assays (CPU, small samples): ESM1v macro Spearman 0.475 vs 0.266 for frozen ESM2 with ridge. 112 tests; confidence intervals pending GPU access.</td>
 <td valign="top" align="center">✅ <a href="https://github.com/ajinkya-awari/esm2-protein-fitness">↗</a></td>
 </tr>
 <tr>
@@ -137,7 +137,7 @@ Status key: ✅ verified result · 🟡 measured, weak or partial · ⛔ documen
 <td valign="top" align="center">00</td>
 <td valign="top" align="left"><b><ins>SolomonoffBench</ins></b></td>
 <td valign="top" align="left">Tests whether LLMs compress sequences the way an ideal predictor would, using sequences of known, varying algorithmic complexity.</td>
-<td valign="top" align="left"><a href="https://github.com/ajinkya-awari/solomonoff-bench">↗</a> ✅ Benchmark slice closed; complexity-vs-compression analysis complete. Limits listed in the README.</td>
+<td valign="top" align="left"><a href="https://github.com/ajinkya-awari/solomonoff-bench">↗</a> ✅ 300 sequences, 600 scored model pairs: Qwen2.5-3B sits 0.43–0.49 bits/symbol above the CTW baseline across four complexity levels.</td>
 </tr>
 <tr>
 <td valign="top" align="center">01</td>
@@ -154,7 +154,7 @@ Status key: ✅ verified result · 🟡 measured, weak or partial · ⛔ documen
 <tr>
 <td valign="top" align="center">03</td>
 <td valign="top" align="left"><b><ins>AgentTrace</ins></b></td>
-<td valign="top" align="left">An evaluation harness for LLM agent tool-call traces, with probes for sycophancy and reasoning-effort effects.</td>
+<td valign="top" align="left">A LangGraph-traced harness measuring when medical question-answering LLMs abandon correct answers under social-engineering pressure (50 USMLE questions, five attack framings, 76 offline tests).</td>
 <td valign="top" align="left"><a href="https://github.com/ajinkya-awari/agentrace">↗</a> ⛔ Implementation complete. Live runs are blocked by provider rate limits, so no live results are claimed.</td>
 </tr>
 <tr>
@@ -181,8 +181,8 @@ Status key: ✅ verified result · 🟡 measured, weak or partial · ⛔ documen
 <tr>
 <td valign="top" align="center">04</td>
 <td valign="top" align="left"><b><ins>AFBind</ins></b></td>
-<td valign="top" align="left">Tests whether AlphaFold2-predicted structures help predict protein-ligand binding affinity, using BindingDB Ki values and a leakage-safe cross-target split.</td>
-<td valign="top" align="left"><a href="https://github.com/ajinkya-awari/afbind">↗</a> ✅ ECFP6 baseline Pearson r = 0.4765; 37 tests pass. The baseline is the reference point, not an AF2 comparison claim.</td>
+<td valign="top" align="left">Built to test whether AlphaFold2-predicted structures help predict protein-ligand binding affinity, using BindingDB Ki values and a leakage-safe cross-target split.</td>
+<td valign="top" align="left"><a href="https://github.com/ajinkya-awari/afbind">↗</a> 🟡 ECFP6 baseline Pearson r = 0.4765 (cross-target); 37 tests pass. The AlphaFold2 comparison itself has not been run.</td>
 </tr>
 <tr>
 <td valign="top" align="center">06</td>
@@ -194,13 +194,13 @@ Status key: ✅ verified result · 🟡 measured, weak or partial · ⛔ documen
 <td valign="top" align="center">07</td>
 <td valign="top" align="left"><b><ins>F2-HistoGNN</ins></b></td>
 <td valign="top" align="left">Turns histology images into nuclei graphs and compares graph models on lung adenocarcinoma vs squamous (LUAD/LUSC) classification.</td>
-<td valign="top" align="left"><a href="https://github.com/ajinkya-awari/f2-histognn">↗</a> ✅ 62 tests; real-data pilot with 4 models × 3 seeds. Pilot-sized, not clinical validation.</td>
+<td valign="top" align="left"><a href="https://github.com/ajinkya-awari/f2-histognn">↗</a> ✅ 62 tests; 12 benchmark records (4 models × 3 seeds) on a 100-case TCGA cohort. Pilot-sized, not clinical validation.</td>
 </tr>
 <tr>
 <td valign="top" align="center">15</td>
 <td valign="top" align="left"><b><ins>ESM2-Protein-Fitness</ins></b></td>
 <td valign="top" align="left">Predicts how protein mutations change fitness, from ESM2 language-model embeddings.</td>
-<td valign="top" align="left"><a href="https://github.com/ajinkya-awari/esm2-protein-fitness">↗</a> ✅ 112 tests; Kaggle run complete. Full-assay confidence intervals are optional follow-up.</td>
+<td valign="top" align="left"><a href="https://github.com/ajinkya-awari/esm2-protein-fitness">↗</a> ✅ ESM1v macro Spearman 0.475 vs 0.266 (ESM2 + ridge) on 40 assays; 112 tests. Confidence intervals pending GPU access.</td>
 </tr>
 <tr>
 <td valign="top" align="center">18</td>
@@ -283,8 +283,8 @@ Status key: ✅ verified result · 🟡 measured, weak or partial · ⛔ documen
 <tr>
 <td valign="top" align="center">05</td>
 <td valign="top" align="left"><b><ins>FedScope</ins></b></td>
-<td valign="top" align="left">Benchmarks the federated algorithms FedAvg, FedProx and FedNova against a centralized baseline on the same task.</td>
-<td valign="top" align="left"><a href="https://github.com/ajinkya-awari/fedscope">↗</a> ✅ F1 0.78–0.80 across 3 seeds.</td>
+<td valign="top" align="left">Benchmarks FedAvg, FedProx, FedNova and ServerMomentum on non-IID PathMNIST against a centralised baseline.</td>
+<td valign="top" align="left"><a href="https://github.com/ajinkya-awari/fedscope">↗</a> 🟡 Centralised baseline macro-F1 0.78–0.80 (3 seeds); all federated strategies below chance at 3 CPU rounds. A GPU run is needed.</td>
 </tr>
 <tr>
 <td valign="top" align="center">17</td>
