@@ -14,7 +14,7 @@
 <img src="assets/info-card.svg" alt="20 public repos, 5 verified results, 81 tests with CI green on the flagship benchmark, 4 negative results published on purpose" width="100%" />
 </div>
 
-<sub>**Five verified results:** [AIXI-Complexity](https://github.com/ajinkya-awari/aixi-complexity-benchmark) · [GraphGPS-Upgrade](https://github.com/ajinkya-awari/graphgps-upgrade) · [F2-HistoGNN](https://github.com/ajinkya-awari/f2-histognn) · [ESM2-Protein-Fitness](https://github.com/ajinkya-awari/esm2-protein-fitness) · [SolomonoffBench](https://github.com/ajinkya-awari/solomonoff-bench). **Baseline-stage:** [AFBind](https://github.com/ajinkya-awari/afbind) (ECFP6 baseline measured; AlphaFold2 comparison not yet run), [FedScope](https://github.com/ajinkya-awari/fedscope) (centralised baseline measured; federated strategies below chance at 3 CPU rounds) and [PrivacyFL-DP](https://github.com/ajinkya-awari/privacyfl-dp) (1 of 6 privacy points). **Four negative or null results, published on purpose:** KnetMiner-LLM (strict acceptance 0/30), PrivacyFL-DP (chance-level AUC 0.497), FedScope (federated runs below chance) and AIXI-Complexity (no difficulty proxy stays significant).</sub>
+<sub>**Five verified results:** [AIXI-Complexity](https://github.com/ajinkya-awari/aixi-complexity-benchmark) · [GraphGPS-Upgrade](https://github.com/ajinkya-awari/graphgps-upgrade) · [F2-HistoGNN](https://github.com/ajinkya-awari/f2-histognn) · [ESM2-Protein-Fitness](https://github.com/ajinkya-awari/esm2-protein-fitness) · [SolomonoffBench](https://github.com/ajinkya-awari/solomonoff-bench). **Baseline-stage:** [AFBind](https://github.com/ajinkya-awari/afbind) (ECFP6 baseline measured; AlphaFold2 comparison not yet run), [FedScope](https://github.com/ajinkya-awari/fedscope) (centralised baseline measured; federated strategies below chance at 3 CPU rounds) and [PrivacyFL-DP](https://github.com/ajinkya-awari/privacyfl-dp) (1 of 6 privacy points). **Four negative or null results, published on purpose:** Cite-or-Abstain (strict acceptance 0/30), PrivacyFL-DP (chance-level AUC 0.497), FedScope (federated runs below chance) and AIXI-Complexity (no difficulty proxy stays significant).</sub>
 
 **Open to ML Engineering, Biomedical AI, Research Engineering, Responsible AI and Research Assistant opportunities in the UK.**
 
@@ -108,9 +108,9 @@ Status key: ✅ verified result · 🟡 measured, weak or partial · ⛔ documen
 <td valign="top" align="center">🟡 <a href="https://github.com/ajinkya-awari/privacyfl-dp">↗</a></td>
 </tr>
 <tr>
-<td valign="top" align="left"><b><ins>KnetMiner-LLM</ins></b></td>
-<td valign="top" align="left">Evidence-grounded biomedical graph retrieval. Release engineering complete, but strict per-answer acceptance is <b>0/30</b>. <a href="https://ajinkya-awari.github.io/knetminer-llm/demo/">Live demo</a>.</td>
-<td valign="top" align="center">⛔ <a href="https://github.com/ajinkya-awari/knetminer-llm">↗</a></td>
+<td valign="top" align="left"><b><ins>Cite-or-Abstain</ins></b></td>
+<td valign="top" align="left">Evidence-grounded biomedical graph retrieval. Release engineering complete, but strict per-answer acceptance is <b>0/30</b>. <a href="https://ajinkya-awari.github.io/cite-or-abstain/demo/">Live demo</a>.</td>
+<td valign="top" align="center">⛔ <a href="https://github.com/ajinkya-awari/cite-or-abstain">↗</a></td>
 </tr>
 </tbody>
 </table>
@@ -186,9 +186,9 @@ Status key: ✅ verified result · 🟡 measured, weak or partial · ⛔ documen
 </tr>
 <tr>
 <td valign="top" align="center">06</td>
-<td valign="top" align="left"><b><ins>KnetMiner-LLM</ins></b></td>
+<td valign="top" align="left"><b><ins>Cite-or-Abstain</ins></b></td>
 <td valign="top" align="left">Answers biomedical questions over a knowledge graph with strict citations and abstention, evaluated with leakage-safe heterogeneous-graph splits.</td>
-<td valign="top" align="left"><a href="https://github.com/ajinkya-awari/knetminer-llm">↗</a> ⛔ Release complete, but strict per-answer acceptance is 0/30 with the local model.</td>
+<td valign="top" align="left"><a href="https://github.com/ajinkya-awari/cite-or-abstain">↗</a> ⛔ Release complete, but strict per-answer acceptance is 0/30 with the local model.</td>
 </tr>
 <tr>
 <td valign="top" align="center">07</td>
